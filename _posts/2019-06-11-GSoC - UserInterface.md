@@ -27,4 +27,6 @@ After that, the tool parses these files and it shows all bibliographic entries f
 - For displaying these entries, a new dialog box will be opened.
 Instead of the draft view that we published last week, we have finally chosen a view that allows a comfortable reading of the citations found along all documents.
 
+![User Interface](https://user-images.githubusercontent.com/12954316/59305727-1b754300-8c9b-11e9-941e-950a4dbf6ae2.gif)
+
 For a better understanding, each part of the project will be available in [different public pull requests](https://github.com/JabRef/jabref/pulls) so as to make the discussion about implementation details easier.
