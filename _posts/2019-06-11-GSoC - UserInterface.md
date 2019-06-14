@@ -16,11 +16,11 @@ As we told last week, any feedback is more than welcome!
 
 ## Jun 03, 2019 – Jun 10, 2019 (Second week of coding)
 
-This week we have been working on two differentiated issues:
-- On the one hand, improving the code from last week, thanks to the feedback we got on [GitHub](https://github.com/JabRef/jabref/pull/5011).
-- On the other hand, discussing and improving prototypes, before starting to code the user interface for the TEX parser tool.
+This week we have been working on two different issues:
+1. On the one hand, improving the code from last week, thanks to the feedback we got on [GitHub](https://github.com/JabRef/jabref/pull/5011).
+2. On the other hand, discussing and improving prototypes, before starting to code the user interface for the TEX parser tool.
 
-So the goal has been to connect the back-end of the parser with the user interface:
+The goal has been to connect the back-end of the parser with the user interface:
 - A first dialog box will ask for a directory for scanning TEX files.
 Then, the user could select specific files.
 After that, the tool parses these files and it shows all bibliographic entries found.
