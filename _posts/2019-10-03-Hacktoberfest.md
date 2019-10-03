@@ -5,6 +5,9 @@ author: "[JabRef Developers](https://github.com/JabRef/jabref/blob/master/DEVELO
 bg: jabref-font
 color: white
 ---
+
+[![Hacktoberfest: Hacktoberfest 2019](../img/Hacktoberfest_19_Events_730x90.png)](http://www.jabref.org/hacktoberfest/2019.html)
+
 📅 October is here and that means that it's time for 2019's edition of **Hacktoberfest**!
 Want to help with the improvement of JabRef and even get a free T-shirt? Start contributing now:
 
@@ -23,5 +26,3 @@ After a [successful participation in Google's Summer of Code 2019](https://blog.
 
 Check out our [Hacktoberfest 2919 Website](http://www.jabref.org/hacktoberfest/2019.html) for details and rules!
 
-
-[![Hacktoberfest: Hacktoberfest 2019](../img/Hacktoberfest_19_Events_730x90.png)](http://www.jabref.org/hacktoberfest/2019.html)
