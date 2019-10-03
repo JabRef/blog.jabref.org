@@ -8,7 +8,7 @@ color: white
 
 [![Hacktoberfest: Hacktoberfest 2019](../img/Hacktoberfest_19_Events_730x90.png)](http://www.jabref.org/hacktoberfest/2019.html)
 
-📅 October is here and that means that it's time for 2019's edition of **Hacktoberfest**!
+📅 🎃 October is here and that means that it's time for 2019's edition of **Hacktoberfest**!
 Want to help with the improvement of JabRef and even get a free T-shirt? Start contributing now:
 
 > Get a pull request merged, receive a sticker.
