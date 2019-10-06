@@ -23,6 +23,6 @@ Looking back, after going through that feedback, all former contributors said th
 
 After a [successful participation in Google's Summer of Code 2019](https://blog.jabref.org/2019/08/06/GSoC-LatexCitationsTab/) and giving feedback on many pull requests, we decided to take part in Hacktoberfest 2019.
 
-
 Check out our [Hacktoberfest 2919 Website](http://www.jabref.org/hacktoberfest/2019.html) for details and rules!
 
+Always remember `Hacktoberfest value #2`: **Quantity is fun, quality is key**
