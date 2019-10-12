@@ -1,3 +1,4 @@
+# JabRef's Blog
 [![Build Status](https://travis-ci.org/JabRef/blog.jabref.org.svg?branch=gh-pages)](https://travis-ci.org/JabRef/blog.jabref.org)
 [![GitHub license](https://img.shields.io/github/license/JabRef/blog.jabref.org)](https://github.com/JabRef/blog.jabref.org/blob/gh-pages/LICENSE.md)
 
