@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/JabRef/blog.jabref.org.svg?branch=gh-pages)](https://travis-ci.org/JabRef/blog.jabref.org)
+[![GitHub license](https://img.shields.io/github/license/JabRef/blog.jabref.org)](https://github.com/JabRef/blog.jabref.org/blob/gh-pages/LICENSE.md)
+
 This repository contains the source of the [JabRef blog](https://blog.jabref.org/).
 Feel free to send blog entries via [requests](https://github.com/JabRef/blog.jabref.org/pulls).
 
