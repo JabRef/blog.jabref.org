@@ -1,5 +1,5 @@
 This repository contains the source of the [JabRef blog](https://blog.jabref.org/).
-Feel free to send blog entries via [requests](https://github.com/JabRef/blog.jabref.org/pulls).
+Feel free to send blog entries via [Pull requests](https://github.com/JabRef/blog.jabref.org/pulls).
 
 The layout is based on [github.com/t413/SinglePaged](https://github.com/t413/SinglePaged).
 
