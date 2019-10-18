@@ -47,3 +47,6 @@ You can update your jekyll instance using `bundle update`.
 This might be necessary because of the update to [Jekyll 3.0 by GitHub](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0).
 
   [htmlproof]: https://github.com/gjtorikian/html-proofer
+  
+ ## License
+ [Creative Commons Attribution 4.0 International](/LICENSE.md)
