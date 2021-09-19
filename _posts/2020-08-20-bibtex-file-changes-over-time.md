@@ -214,10 +214,10 @@ One can still configure the sort ordering of a specific database.
 
 JabRef 3.6 was released on 2016-08-26.
 In this version, comments are now preserved.
-For instance, `% emacs-style` is kept in the `.bib` file:
+For instance, `% Comment` is kept in the `.bib` file:
 
 ```bibtex
-% emacs-style
+% Comment
 
 @Article{smith1980,
   author =       {John Smith},
