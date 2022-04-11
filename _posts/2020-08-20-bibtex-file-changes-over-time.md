@@ -10,7 +10,7 @@ The semantics of the content was never changed, but the "layout" in the file.
 That lead to huge complaints over the time.
 Especially, when a group used different JabRef versions.
 
-The JabRef team decided in 2015 that this side effect is not acceptable and that only the parts of the bibliopgrahy touch by JabRef should be rewritten.
+The JabRef team decided in 2015 that this side effect is not acceptable and that only the parts of the bibliopgraphy touch by JabRef should be rewritten.
 This was implemented in JabRef 3.1, released on 2015-12-24.
 
 The discussions on a "useful" serialization of BibTeX entries continues.
@@ -32,12 +32,12 @@ We illustrate the different serialiaztions using the following artificial entry:
 ```
 
 The BibTeX entry type "Phd Thesis" consits of required and optional fields.
-Additionally, fields not defined by BibTeX can be added to.
+Additionally, fields not defined by BibTeX can be added.
 We call these fields "custom fields".
 
 Please note that there is not really a "BibTeX standard".
 Each BibTeX bibliography style file (`.bst`) defines the fields it displays in the bibliography on its own.
-As a consequence, some some papers the `url` field is shown, in some it is not even though it is defined in the `.bib` file.
+As a consequence, in some papers the `url` field is shown, in some it is not, even though it is defined in the `.bib` file.
 
 ## History
 
@@ -48,7 +48,7 @@ As a consequence, some some papers the `url` field is shown, in some it is not e
 - First the required fields, then the optional fields (each group sorted alphabetically)
 - No alignment key/value separators (`=`)
 - Multiline-content of a field start with a tab.
-  Multiline content is reformatted as paragraphs have to be separated by an empty line (similar to LaTeX and Markdown).
+  Multiline-content reformatted as paragraphs have to be separated by an empty line (similar to LaTeX and Markdown).
 
 ```bibtex
 @PHDTHESIS{5,
@@ -152,22 +152,22 @@ When reading a pre-3.0 file, leading spaces are shown as is.
 ![JabRef 3.0 abstract editing](../img/jabref-3.0-abstract-multiline.png)
 
 This is the result of a long internal discussion.
-The main reason was that JabRef cnanot properly distinguish whether the indent of a file is intend or whether the indent originated from a pre-3.0 file.
+The main reason was that JabRef cannot properly distinguish whether the indent of a file is intend or whether the indent originated from a pre-3.0 file.
 Implementing heuristics (e.g., all lines are starting with the same amount of space characters) was neglected,
-because such code needs to maintained and the team wants to focus to improve maintainability of JabRef:
+because such code needs to be maintained and the team wants to focus to improve maintainability of JabRef:
 Fix bugs and implement new features in a maintainable way.
 
 ### JabRef 3.1
 
 JabRef 3.1 was released on 2015-12-24.
-Up to JabRef 3.0, the whole bibliography file was rewritten, which lead to huge discussions at users.
-This version wrote the entries as they were in case the user did not change any content.
+Up to JabRef 3.0, the whole bibliography file was rewritten, which led to huge discussions by users.
+This version wrote the entries as they were, in case the user did not change any content.
 In the case of a change, JabRef's own style was used.
 Nevertheless, the sort order of the file could lead to a rewrite of the file, so users had to ensure proper configuration
 
 ![JabRef 3.1 save sort order options](../img/jabref-3.1-save-sort-order-options.png)
 
-To ease collaboration with others, JabRef introcuded to store the save order config locally in a BibTeX database:
+To ease collaboration with others, JabRef introduced storing the save order config locally in a BibTeX database:
 
 ![JabRef 3.1 Local Save Order Options](../img/jabref-3.1-local-save-sort-order-options.png)
 
@@ -175,7 +175,7 @@ JabRef changed the alignment of `=` signs.
 They are are now directly followed after the key.
 The values are still aligned (all `{` of one entry are put above each other)
 
-Keys are written lowercase again, requried fields before optional ones.
+Keys are written lowercase again, required fields before optional ones.
 Alphabetically, even `title` is sorted in alphabetically.
 
 ```bibtex
