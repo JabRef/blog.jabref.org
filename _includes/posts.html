@@ -1,0 +1,16 @@
+<section id="features">
+{% for post in site.posts %}
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <hr class="section-heading-spacer">
+                    <h2 class="section-heading">{{ post.date | date: '%B %d, %Y' }} &ndash;  {{ post.title }}</h2>
+                    <div class="postauthor">{{post.author | markdownify}}</div>
+                    <div class="lead">{{ post.content }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+</section>

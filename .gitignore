@@ -1,12 +1,11 @@
 _site/
-.DS_Store
 .*
 !/.editorconfig
+!/.prettierrc
 !/.git*
-!/.mailmap*
-!/.travis.yml
-Gemfile.lock
 npm-debug.log
+node_modules/
+build/
 
 #try to avoid "Page build warning"s at contributors
 #see for background information https://github.com/trek/beautiful-open/issues/43
