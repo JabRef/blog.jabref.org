@@ -10,8 +10,6 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     ffi (1.15.5)
-    font-awesome-sass (6.1.1)
-      sassc (~> 2.0)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.10.0)
@@ -33,6 +31,7 @@ GEM
       terminal-table (~> 1.8)
     jekyll-feed (0.16.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-paginate (1.1.0)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (2.2.0)
@@ -70,9 +69,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  font-awesome-sass
   jekyll (~> 4.1.1)
   jekyll-feed
+  jekyll-paginate
   jekyll-redirect-from
   jekyll-sitemap
   webrick (~> 1.7)

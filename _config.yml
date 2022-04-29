@@ -20,6 +20,7 @@ sass:
   sass_dir: css
 
 plugins:
+  - jekyll-paginate
   - jekyll-feed
 
 defaults:
@@ -44,3 +45,6 @@ jekyll_analytics:
   anonymizeIp: true
 
 repository: JabRef/blog.jabref.org
+
+paginate: 5
+paginate_path: "/page:num/"
