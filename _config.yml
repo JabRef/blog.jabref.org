@@ -32,7 +32,7 @@ defaults:
       layout: "default"
 
 ### content configuration ###
-url:         "http://blog.jabref.org"
+url:         "https://blog.jabref.org"
 title:       "JabRef | Blog"
 keywords:    "JabRef, blog"
 description: "The blog of the literature management software JabRef"
