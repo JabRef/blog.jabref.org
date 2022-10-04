@@ -1,3 +1,7 @@
+# Outdated
+*This repository for our website has been archived, and all issues are therefore frozen.*
+If you want to contribute, propose a new feature and/or report a bug with the blog, please head over to the new repository https://github.com/JabRef/JabRefOnline.
+
 # JabRef's blog
 
 > This repository contains the source of the [JabRef blog](https://blog.jabref.org/).
