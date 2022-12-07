@@ -6,7 +6,7 @@ bg: jabref-font
 color: white 
 ---
 
-Last week, on November 29, it was JabRef's 19 birthday! Yep. That old already 😉. While the original creators Morten O. Alver and Nizar Batada are no longer active developing at JabRef, they are the ones who led the foundation in 2003 for the basis of JabRef. And even though they are no longer on board, we have a couple of users who still use JabRef since the early days!
+Last week, on November 29, it was JabRef's 19 birthday! Yep. That old already 😉. While the original creators Morten O. Alver and Nizar Batada are no longer actively developing JabRef, they led the foundations in 2003. Moreover, we have a couple of users who use JabRef since the early days!
 
 Over the years JabRef has seen many contributors coming and going, and we would like to thank all of them for their various contributions. This not only includes code but also ideas and translations!
 
