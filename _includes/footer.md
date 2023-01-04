@@ -5,4 +5,4 @@ Design by Tim O'Brien [t413.com](http://t413.com/)
 &mdash;
 this site is [open source]({{ site.source_link }})
 
-Follow us on <a rel="me" href="https://foojay.social/@jabref_org">Mastodon</a>
+Follow us on <a rel="me" href="https://foojay.social/@jabref">Mastodon</a>
