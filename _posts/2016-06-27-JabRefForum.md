@@ -1,9 +1,5 @@
 ---
 title: New User Forum
-id: JabRefForum
-author: "[JabRef Developers](https://github.com/orgs/JabRef/teams/developers)"
-bg: jabref-font
-color: white
 ---
 
 In cooperation with [discourse.org](http://www.discourse.org) a new forum for JabRef has just been opened!

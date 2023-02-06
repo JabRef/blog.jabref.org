@@ -1,8 +1,5 @@
 ---
 title: A faster JabRef is coming!
-id: faster-jabref
-bg: jabref-font
-color: white
 author: "[mlep](https://github.com/mlep)"
 ---
 

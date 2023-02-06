@@ -1,7 +1,6 @@
 ---
 title: "Customize entry types in JabRef: Video tutorial"
-id: CustomEntryTypesVideoTut
-author: "[JabRef Maintainers](https://github.com/JabRef/jabref/blob/main/MAINTAINERS)"
+categories: [HowTo]
 ---
 
 BibTeX and BibLaTeX allow users to define their own entry types and fields.

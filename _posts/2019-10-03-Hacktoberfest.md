@@ -1,9 +1,6 @@
 ---
 title: JabRef celebrates Hacktoberfest 2019
-id: Hacktoberfest2019
-author: "[JabRef Maintainers](https://github.com/JabRef/jabref/blob/main/MAINTAINERS)"
-bg: jabref-font
-color: white
+categories: [Hacktoberfest]
 ---
 
 [![Hacktoberfest: Hacktoberfest 2019](../img/Hacktoberfest_19_Events_730x90.png)](http://www.jabref.org/hacktoberfest/2019.html)

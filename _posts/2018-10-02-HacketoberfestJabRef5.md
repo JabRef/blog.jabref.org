@@ -1,9 +1,5 @@
 ---
 title: Hacktoberfest and JabRef 5.0 development
-id: HacktoberfestJabRef5
-author: "[JabRef Maintainers](https://github.com/JabRef/jabref/blob/main/MAINTAINERS)"
-bg: jabref-font
-color: white
 ---
 📅 October is here and that means that it's time for 2018's edition of **Hacktoberfest**!
 Want to help with the improvement of JabRef and even get a free T-shirt? Start contributing now as part of [Hacktoberfest](https://hacktoberfest.digitalocean.com/) from DigitalOcean.

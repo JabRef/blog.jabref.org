@@ -1,9 +1,6 @@
 ---
 title: "2018 Survey on Feature Usage in JabRef"
-id: survey-usability-2018
-author: "[JabRef Maintainers](https://github.com/JabRef/jabref/blob/main/MAINTAINERS)"
-bg: jabref-font
-color: white
+categories: [Survey]
 ---
 
 As we have mentioned in the [previous post](https://blog.jabref.org/#october-02-2018-%E2%80%93-hacktoberfest-and-jabref-5-0-development), the development of JabRef 5.0 is underway.

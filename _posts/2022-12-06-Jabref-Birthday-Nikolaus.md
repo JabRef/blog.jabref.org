@@ -1,9 +1,6 @@
 ---
 title:  JabRef's 19th Birthday
-id: JabRefBirthday22
-author: "[JabRef Maintainers](https://github.com/JabRef/jabref/blob/main/MAINTAINERS)"
-bg: jabref-font
-color: white 
+categories: [Anniversarary]
 ---
 
 Happy 19th birthday, JabRef!

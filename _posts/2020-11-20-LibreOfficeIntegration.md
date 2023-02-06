@@ -1,12 +1,10 @@
 ---
 title: JabRef Interaction with LibreOffice Explained
-id: LibreOfficeIntegration
+categories: [HowTo]
 author: "[Felix Wilke](https://github.com/teertinker)"
 ---
 Today's blog post will highlight the interaction between JabRef and LibreOffice, the [open-source alternative](https://www.libreoffice.org/) to Microsoft Office.
 It is presented to you by a JabRef user, [Felix Wilke](https://github.com/teertinker), who is also a code contributor.
-
-# JabRef Interaction with LibreOffice
 
 JabRef offers many features for inserting citations and formatting a bibliography in OpenOffice or LibreOffice Writer.
 This post explains the basic functionality and also how to get the most of it with the help of third-party tools.
