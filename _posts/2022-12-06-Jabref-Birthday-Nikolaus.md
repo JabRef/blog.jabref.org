@@ -1,6 +1,6 @@
 ---
 title:  JabRef's 19th Birthday
-categories: [Anniversarary]
+categories: [Anniversary]
 ---
 
 Happy 19th birthday, JabRef!
@@ -15,4 +15,4 @@ As we celebrate this birthday, we look forward to the future and all that is yet
 
 Thank you again for being a part of the JabRef community. Here's to many more years of success!
 
-![The JabRef Logo with colored balloons](../img/jabref%2019%20years.png){: style="float:right"}
+![The JabRef Logo with colored balloons](/img/jabref%2019%20years.png){: style="float:right"}
