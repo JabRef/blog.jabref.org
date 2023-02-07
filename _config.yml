@@ -94,7 +94,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: img/JabRef-icon-256.png
 
 # boolean type, the global switch for ToC in posts.
 toc: false
@@ -170,7 +170,7 @@ defaults:
       layout: page
       permalink: /:title/
   - scope:
-      path: assets/img/favicons
+      path: img/favicons
     values:
       swcache: true
   - scope:
