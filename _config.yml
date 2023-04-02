@@ -6,7 +6,6 @@ safe: false
 #  - jekyll-feed
 
 ### site serving configuration ###
-exclude: [CNAME, CONTRIBUTING.md, README.md, .editorconfig, .gitignore, .gitmodules, Gemfile, Gemfile.lock]
 #permalink: pretty
 #timezone: null
 #lsi: false
@@ -193,9 +192,16 @@ compress_html:
 exclude:
   - '*.gem'
   - '*.gemspec'
+  - .editorconfig
+  - .gitignore
+  - .gitmodules
   - tools
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
   - README.md
   - CHANGELOG.md
+  - CONTRIBUTING.md
   - LICENSE
   - gulpfile.js
   - node_modules
