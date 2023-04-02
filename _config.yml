@@ -24,7 +24,6 @@ baseurl: ''
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
-
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Europe/Berlin
 
@@ -94,7 +93,9 @@ img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: img/JabRef-icon-256.png
-avatar_url: https://www.jabref.org
+
+# not yet supported
+avatar_link: https://www.jabref.org
 
 # boolean type, the global switch for ToC in posts.
 toc: false
