@@ -1,49 +1,38 @@
-# JabRef's blog.
+# JabRef's blog
 
 > This repository contains the source of the [JabRef blog](https://blog.jabref.org/).
 
 Feel free to send blog entries.
 Find details in our [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-The layout is based on [github.com/t413/SinglePaged](https://github.com/t413/SinglePaged).
-We use [jekyll](https://jekyllrb.com/) as static site generator.
-See [GitHub pages](https://pages.github.com/) for more details on the mechanics behnd.
+The layout is based on [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy).
+We use [Jekyll](https://jekyllrb.com/) as static site generator.
+See [GitHub pages](https://pages.github.com/) for more details on the mechanics behind.
 
+## Local Development
 
-## Testing the blog entry
+For local development, follow the [Jekyll installation instructions](https://jekyllrb.com/docs/installation/).
+Installing the latest version of ruby followed by `gem install bundler` should be enough.
 
-Execute `bundle exec jekyll serve` to serve this page locally at http://localhost:4000/.
+Afterwards, run
 
-For running htmlproof, execute these two commands:
+```terminal
+bundle install
+jekyll serve --livereload
+```
 
-    bundle exec jekyll build
-    bundle exec htmlproof ./_site
+and go to <http://localhost:4000/> in your browser.
 
+On Windows, using a dockerized environment is recommended:
 
-## Installation
+```terminal
+docker run -p 4000:4000 --rm --volume="C:\git-repositories\jabref\blog.jabref.org":/srv/jekyll jekyll/jekyll:4 jekyll serve
+```
 
-Source: https://help.github.com/articles/using-jekyll-with-pages/#installing-jekyll
+In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and rerun.
 
-1. Install Ruby by using the [RubyInstaller](http://rubyinstaller.org/downloads) or [choco install ruby](https://chocolatey.org/packages/ruby)
-1. Install the [Development Kit](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit) (or by [choco install ruby2.devkit](https://chocolatey.org/packages/ruby2.devkit))
-1. `gem install bundler`
-2. `bundle install`
+Incremental building is also possible:
 
-Note that [JRuby](http://jruby.org/) doesn't work as the [C extensions were dropped](http://stackoverflow.com/a/32135381/873282).
-
-
-### htmlproof
-
-On Windows, you have to do following steps to let [htmlproof] work.
-
-  - Download libcurl https://curl.haxx.se/download.html. Current version: http://curl.haxx.se/gknw.net/7.40.0/dist-w32/renamed-curl-7.40.0-devel-mingw32.zip
-  - Extract subfolder `curl-7.40.0-devel-mingw32` into `c:\temp`
-  - Exec `SET PATH=%PATH%;c:\temp\curl-7.40.0-devel-mingw32\bin`
-
-
-## Updating jekyll
-
-You can update your jekyll instance using `bundle update`.
-This might be necessary because of the update to [Jekyll 3.0 by GitHub](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0).
-
-  [htmlproof]: https://github.com/gjtorikian/html-proofer
+```terminal
+docker run -p 4000:4000 --rm --volume="C:\git-repositories\jabref\blog.jabref.org":/srv/jekyll jekyll/jekyll:4 jekyll serve --incremental
+```

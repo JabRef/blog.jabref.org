@@ -1,12 +1,24 @@
-_site/
-.DS_Store
 .*
 !/.editorconfig
 !/.git*
 !/.mailmap*
-!/.travis.yml
+!.nojekyll
+!.husky
+!.commitlintrc.json
+!.versionrc.json
+!.stylelintrc.json
+
+# bundler cache
+_site
+vendor
 Gemfile.lock
-npm-debug.log
+
+# rubygem
+*.gem
+
+# npm dependencies
+node_modules
+package-lock.json
 
 #try to avoid "Page build warning"s at contributors
 #see for background information https://github.com/trek/beautiful-open/issues/43
@@ -17,3 +29,5 @@ CNAME
 
 # Windows
 thumbs.db
+
+npm-debug.log

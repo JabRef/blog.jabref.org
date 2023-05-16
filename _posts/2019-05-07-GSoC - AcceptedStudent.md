@@ -1,12 +1,9 @@
 ---
 title: "JabRef Participates in Google Summer of Code 2019"
-id: gsoc-2019-student
-author: "[JabRef Developers](https://github.com/JabRef/jabref/blob/master/DEVELOPERS)"
-bg: jabref-font
-color: white
+categories: [GSoC]
 ---
 
-Great news! In the last post we announced that JabRef got accepted as an open source organization for this year's [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/). 
+Great news! In the last post we announced that JabRef got accepted as an open source organization for this year's [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/).
 Now we are happy to tell that we have accepted a student, David Méndez, who will be improving JabRef this summer.
 
 Until August he will be working on a project on establishing a tighter interplay between JabRef and your research papers.
