@@ -45,3 +45,4 @@ docker run -p 4000:4000 --rm --volume="C:\git-repositories\jabref\blog.jabref.or
    2. `git pull`
    3. `cd ../..`
 3. git commit and PR creation
+4. In case build fails because of missing assets, roll back the assets to the commit matching the release version of the theme.
