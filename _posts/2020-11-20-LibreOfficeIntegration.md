@@ -15,7 +15,7 @@ This post explains the basic functionality and also how to get the most of it wi
 - Open the LibreOffice panel in JabRef
 - Hit the "Connect" button
 
-![](/img/ConnectToLibreOffice.gif)
+![Animation showing how to connect to LibreOffice from JabRef](/img/ConnectToLibreOffice.gif)
 
 In case you get an error message you may have to connect manually (see: <https://docs.jabref.org/cite/openofficeintegration>).
 Especially Linux users should use the official versions of JabRef and LibreOffice in order to prevent connection issues.
@@ -26,7 +26,7 @@ Especially Linux users should use the official versions of JabRef and LibreOffic
 - Mark the entry or entries you want to cite
 - Click on "Cite" or "Cite-in-text"
 
-![](/img/libreoffice_blog1.gif)
+![Animation showing how to insert citations from JabRef into LibreOffice documents](/img/libreoffice_blog1.gif)
 
 You can easily change the citation style and bibliography style.
 Just click on "Select style".
@@ -46,14 +46,14 @@ However, there exists an external tool that is able to convert the citations so 
 - Convert the citations back to JabRef fields
 - Refresh your bibliography
 
-![](/img/libreoffice_blog2.gif)
+![Animation showing the JabRef LibreOffice converter in action](/img/libreoffice_blog2.gif)
 
 ### Additional Option: Use `\cite{key}` in any Word Processor to Generate References
 
 - The LibreOffice extension can also be used to convert manuscripts with `\cite{keys}` to JabRef References for LibreOffice
 - This offers the option to work on a manuscript with any word processor and generate a bibliography with LibreOffice
 
-![](/img/libreoffice_blog3.gif)
+![Animation showing the right click action copy cite key for copying citations keys and inserting them in a document](/img/libreoffice_blog3.gif)
 
 ## Fourth: Create you own Citation Style with the Export-Filter-Editor
 
@@ -66,4 +66,4 @@ To simplify the creation of a new jstyles there is this handy GUI tool, [Export-
 - Save the jstyle file
 - Open the jstyle in JabRef
 
-![](/img/ExportFilterEditor.gif)
+![Animation showing how to define export filters in the Export-Filter-Editor](/img/ExportFilterEditor.gif)
