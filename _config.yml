@@ -53,8 +53,8 @@ social:
   email: web@jabref.org             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://www.jabref.org/impressum.html      # change to your twitter homepage
-    - https://github.com/JabRef/jabref       # change to your github homepage
+    - https://verein.jabref.org/
+    - https://github.com/JabRef/jabref       # GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     - https://www.linkedin.com/company/11443406/
