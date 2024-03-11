@@ -1,5 +1,5 @@
 ---
-title: "20 years of JabRef - The beginning"
+title: "20 years of JabRef - The Beginning"
 categories: [Anniversary]
 ---
 
