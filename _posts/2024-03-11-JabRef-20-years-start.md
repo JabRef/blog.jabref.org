@@ -3,7 +3,7 @@ title: "20 years of JabRef - The Beginning"
 categories: [Anniversary]
 ---
 
-![20 years logo](/img/JabRef-20-years-2-final-793x711.png)
+![20 years logo](/img/JabRef-20-years-2-final-932x932.webp)
 
 In the beginning, bibtex citation management was without form, and void. But LaTeX shone upon the desperate researcher and deep inside the mind of fearless Java developers', great applications waited to be created. [Bibkeeper](https://bibkeeper.sourceforge.net/) (Morten O. Alver) and [JBibtexManager](https://ctan.org/pkg/jbibtexmanager) (Nizar Batada) were born. Lines of code were written, features were implemented. Between these creative eruptions, the first similarities unfolded: Searchable Tables, editable entries. Soon the idea of joining forces grew, and strengthened, and prospered with every feature implemented. The fruit of all the efforts was an application, that united the power of modern citation management and that created a legacy that would stand the test of time: JabRef (**J**ava **A**lver **B**atada **Ref**erence Manager)
 
