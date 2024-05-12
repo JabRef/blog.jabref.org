@@ -1,11 +1,11 @@
 ---
-title: "20 years of JabRef - JabRef as Subject of study"
+title: "20 years of JabRef - JabRef as Subject of Study"
 categories: [Anniversary]
 ---
 
 ![20 years logo](/img/JabRef-20-years-3-final-790x790.png)
 
-In the last [blog post](https://blog.jabref.org/2024/04/14/JabRef-20-years-second/) we heard the story from a researcher, community member and French Translator. We continue our blog post series with the experiences from Igor Steinmacher who even used JabRef as Subject of Study[^1] in his research:s
+In the last [blog post](https://blog.jabref.org/2024/04/14/JabRef-20-years-second/) we heard the story from a researcher, community member and French Translator. We continue our blog post series with the experiences from Igor Steinmacher who even used JabRef as Subject of Study[^1] in his research:
 
 **Your Journey with JabRef**: When, how, and why did you join/start to use JabRef? What were your initial impressions, and what motivated you to become a part of the team?
 
