@@ -22,5 +22,4 @@ In the last [blog post](https://blog.jabref.org/2024/04/14/JabRef-20-years-secon
 
 > JabRef of the future, is a more collaborative JabRef, with people working on shared databases, synchronously :-)
 
-[^1]: Igor Steinmacher, Igor Wiese, Tayana Uchôa Conte, Marco Aurélio Gerosa:
-**[Increasing the Self-Efficacy of Newcomers to Open Source Software Projects](https://ieeexplore.ieee.org/document/7328020)**. SBES 2015: 160-169
+[^1]: Igor Steinmacher, Igor Wiese, Tayana Uchôa Conte, Marco Aurélio Gerosa: **[Increasing the Self-Efficacy of Newcomers to Open Source Software Projects](https://ieeexplore.ieee.org/document/7328020)**. SBES 2015: 160-169
