@@ -5,7 +5,7 @@
 
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 6.2.2"
+gem "jekyll-theme-chirpy", "~> 7.0.1"
 
 group :test do
   gem "html-proofer", "~> 3.18"

@@ -1,6 +1,6 @@
 ---
 title: "JabRef Participates in Google Summer of Code 2019"
-categories: [GSoC]
+tags: [gsoc]
 ---
 
 Great news! In the last post we announced that JabRef got accepted as an open source organization for this year's [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/).
