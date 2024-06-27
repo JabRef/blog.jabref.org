@@ -58,9 +58,9 @@ Now you need to copy and paste it in JabRef preferences. To do this:
 3. Paste the key into "OpenAI token"
 9. Click "Save"
     
-If you have gave (?wrong word?) money to OpenAI, you can chat with your library!
+If you have some money on your credit balance, you can chat with your library!
 
-In order to increase credit balance (?wrong word?) on OpenAI, do this:
+In order to increase credit balance on OpenAI, do this:
 1. Add payment method [there](https://platform.openai.com/settings/organization/billing/payment-methods)
 2. Add credit balance on [this](https://platform.openai.com/settings/organization/billing/overview) page
 
