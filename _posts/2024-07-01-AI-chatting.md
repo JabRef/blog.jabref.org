@@ -1,11 +1,11 @@
 ---
-title: "Introducing AI features to JabRef"
-categories: [Anniversary]
+title: "LLM-powered chatting with papers in JabRef"
+categories: [AI, GSoC]
 ---
 
 Hello, everyone! My name is Ruslan and I'm a novice JabRef contributor and I'm working on AI project for Google Summer of Code.
 
-I want to introduce you to the new AI features in JabRef. Now, while you managing you reasearch library, you can also chat with papers with a smart AI assistant.
+I want to introduce you to the new AI features in JabRef. Now, while you managing you research library, you can also chat with papers with a smart AI assistant. We use OpenAI API to achieve that.
 
 ## AI chat tab
 
