@@ -1,6 +1,6 @@
 ---
 title: "20 years of JabRef - The early years - Tales from the User side"
-categories: [Anniversary]
+tags: [Anniversary]
 ---
 
 ![20 years logo](/img/JabRef-20-years-1-final-661x769.png)
