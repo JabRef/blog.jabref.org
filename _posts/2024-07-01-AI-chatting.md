@@ -1,12 +1,12 @@
 ---
 title: "Introducing AI features to JabRef"
-categories: [Anniversary]
+categories: [AI, GSoC]
 author: "[Ruslan](https://github.com/InAnYan)"
 ---
 
 Hello, everyone! My name is Ruslan and I'm a novice JabRef contributor and I'm working on AI project for Google Summer of Code.
 
-I want to introduce you to the new AI features in JabRef. Now, while you managing you reasearch library, you can also chat with papers with a smart AI assistant.
+I want to introduce you to the new AI features in JabRef. Now, while you managing you research library, you can also chat with papers with a smart AI assistant. We use OpenAI API to achieve that.
 
 ## AI chat tab
 
@@ -19,7 +19,7 @@ In this window you can see those elements:
 - Prompt for sending messages
 - A button for clearing the chat history (just in case)
 
-Let's try it out on a paper Cooper, K., Donovan, J., Waterhouse, A., & Williamson, G. (2007). Cocoa and health: a decade of research. *British Journal of Nutrition*, 99(1), 1–11.
+Let's try it out on a paper Cooper, K., Donovan, J., Waterhouse, A., & Williamson, G. (2007). Cocoa and health: a decade of research. *British Journal of Nutrition*, 99(1), 1–11. doi:[10.1017/s0007114507795296](https://doi.org/10.1017/s0007114507795296).
 
 Let's ask about the chocolate.
 
