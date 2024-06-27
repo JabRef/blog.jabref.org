@@ -1,6 +1,7 @@
 ---
 title: "Introducing AI features to JabRef"
 categories: [Anniversary]
+author: "[Ruslan](https://github.com/InAnYan)"
 ---
 
 Hello, everyone! My name is Ruslan and I'm a novice JabRef contributor and I'm working on AI project for Google Summer of Code.
