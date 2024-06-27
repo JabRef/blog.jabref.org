@@ -1,6 +1,6 @@
 ---
 title: "20 years of JabRef - JabRef as Subject of Study"
-tags: [Anniversary]
+tags: [anniversary]
 ---
 
 ![20 years logo](/img/JabRef-20-years-3-final-790x790.png)

@@ -1,6 +1,6 @@
 ---
 title: JabRef celebrates Hacktoberfest 2019
-tags: [Hacktoberfest]
+tags: [hacktoberfest]
 ---
 
 [![Hacktoberfest: Hacktoberfest 2019](/img/Hacktoberfest_19_Events_730x90.png)](http://www.jabref.org/hacktoberfest/2019.html)

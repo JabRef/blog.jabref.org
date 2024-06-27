@@ -1,6 +1,6 @@
 ---
 title: "JabRef GSoC’21 Projects"
-tags: [GSoC]
+tags: [gsoc]
 author: JabRef GSoC Mentee
 ---
 

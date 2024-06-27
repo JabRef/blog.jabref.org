@@ -1,6 +1,6 @@
 ---
 title:  JabRef's 19th Birthday
-tags: [Anniversary]
+tags: [anniversary]
 ---
 
 Happy 19th birthday, JabRef!

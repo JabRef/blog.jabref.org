@@ -1,6 +1,6 @@
 ---
 title: "Google Summer of Code 2019: First Steps"
-tags: [GSoC]
+tags: [gsoc]
 ---
 
 Hello!

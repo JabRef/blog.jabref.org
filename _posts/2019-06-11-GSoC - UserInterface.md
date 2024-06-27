@@ -1,6 +1,6 @@
 ---
 title: "Google Summer of Code 2019: User Interface"
-tags: [GSoC]
+tags: [gsoc]
 ---
 
 Hi!
