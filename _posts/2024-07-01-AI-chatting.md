@@ -1,5 +1,5 @@
 ---
-title: "Introducing AI features to JabRef"
+title: "LLM-powered chatting with papers in JabRef"
 categories: [AI, GSoC]
 author: "[Ruslan](https://github.com/InAnYan)"
 ---
