@@ -85,4 +85,6 @@ This is only one step of the Google Summer of Code project, so stay tuned for ne
 
 Currently the chatting is under development, so some bugs may occur.
 
-We value your opinion and we want to know: what AI features would you like to see in JabRef in future? What LLM providers ([Huggingface](https://huggingface.co/pricing#endpoints), [Azure](https://azure.microsoft.com/en-us/products/#ai-machine-learning), [Google](https://ai.google/discover/our-models/), [MistralAI](https://mistral.ai/), [Anthrophic](https://www.anthropic.com/), [Meta](https://llama.meta.com/), etc.) you would like to have in next versions?
+We value your opinion and we want to know: What AI features would you like to see in JabRef in future? What LLM providers would you like to have in next versions?
+
+(List of LLM providers: [Huggingface](https://huggingface.co/pricing#endpoints), [Azure](https://azure.microsoft.com/en-us/products/#ai-machine-learning), [Together.AI](https://www.together.ai/), [Google](https://ai.google/discover/our-models/), [MistralAI](https://mistral.ai/), [Anthrophic](https://www.anthropic.com/), [Meta](https://llama.meta.com/), ... )
