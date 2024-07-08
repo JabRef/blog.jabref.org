@@ -1,6 +1,6 @@
 ---
 title: "Introducing AI features to JabRef"
-categories: [AI, GSoC]
+tags: [AI, GSoC]
 author: "[Ruslan](https://github.com/InAnYan)"
 ---
 
