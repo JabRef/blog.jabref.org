@@ -1,6 +1,6 @@
 ---
 title: "20 years of JabRef - JabRef as Subject of Study"
-categories: [Anniversary]
+tags: [anniversary]
 ---
 
 ![20 years logo](/img/JabRef-20-years-3-final-790x790.png)
@@ -14,8 +14,8 @@ In the last [blog post](https://blog.jabref.org/2024/04/14/JabRef-20-years-secon
 
 **Memorable Moments**: During your active involvement, were there any standout moments or achievements that you're particularly proud of?
 
-> Using my contribution hat, I was a peripheral contributor for a while, working on some import/export features for some time. Later on, I have been contributing with translations in my spare time.  
-> I also worked closely with JabRef both as an instructor and as a researcher. JabRef is a great educational resource for both coding and architecture, as well as for open-source development.  
+> Using my contribution hat, I was a peripheral contributor for a while, working on some import/export features for some time. Later on, I have been contributing with translations in my spare time.
+> I also worked closely with JabRef both as an instructor and as a researcher. JabRef is a great educational resource for both coding and architecture, as well as for open-source development.
 > The community is amazing, supportive, and really welcoming to new people. My research is related to how communities receive new people and how they evolve, and JabRef maintainers are always willing to take part and collaborate.
 
 **Looking Ahead**: What are your ideas for JabRef's future? Are there any specific developments or directions you hope to see?
