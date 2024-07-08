@@ -1,6 +1,6 @@
 ---
 title: "LLM-powered chatting with papers in JabRef"
-categories: [AI, GSoC]
+tags: [AI, GSoC]
 author: "[Ruslan](https://github.com/InAnYan)"
 ---
 
