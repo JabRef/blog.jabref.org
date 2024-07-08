@@ -1,12 +1,12 @@
 ---
-title: "LLM-powered chatting with papers in JabRef"
+title: "Introducing AI features to JabRef"
 tags: [AI, GSoC]
 author: "[Ruslan](https://github.com/InAnYan)"
 ---
 
 Hello, everyone! My name is Ruslan and I'm a novice JabRef contributor and I'm working on AI project for [Google Summer of Code](https://summerofcode.withgoogle.com/).
 
-I want to introduce you to the new AI features in JabRef. Now, while you managing you research library, you can also chat with papers with a smart AI assistant. We use OpenAI API to achieve that.
+I want to introduce you to the new AI features in JabRef. Now, while you are managing your research library, you can also chat with papers using a smart AI assistant.
 
 ## AI chat tab
 
@@ -14,7 +14,7 @@ We have made a new entry editor tab: "AI chat", where all the chatting happens.
 
 ![AI chat tab screenshot](../img/AiIntro.png)
 
-In this window you can see those elements:
+In this window you can see the following elements:
 
 - Chat history with your messages
 - Prompt for sending messages
@@ -36,15 +36,13 @@ It seems the AI mentioned the amount of chocolate a human should eat. Let's dive
 
 ## How does this work?
 
-In background JabRef analyses the linked PDF files of library entries. The information used after the indexing is then supplied to AI.
-
-To generate AI output we used OpenAI's ChatGPT. And in order to use it you need to configure JabRef to use your OpenAI API key.
+In the background, JabRef analyses the linked PDF files of library entries. The information used after the indexing is then supplied to the AI, which, to be precise, in our case is a Large Language Model (LLM). The LLM is currently not stored on your computer. Instead, we used OpenAI's ChatGPT service, which is only available remotely via the internet. In short: we send chunks of text to OpenAI's service and then receive processed responses. In order to use it you need to configure JabRef to use your OpenAI [API](https://en.wikipedia.org/wiki/API) key.
 
 ## How to get an OpenAI API key?
 
-Unfortunately you need to pay OpenAI minimum 5$ for using ChatGPT via API. We will describe all the necessary steps in this step. 
+Unfortunately you need to pay OpenAI a minimum fee for using ChatGPT via API, which is at the date of writing 5$. We will describe all the necessary steps in this step. 
 
-To get OpenAI API key you need to perform these steps:
+To get an OpenAI API key you need to perform these steps:
 
 1. Login or create account [there](https://platform.openai.com/login?launch)
 2. Go to "API" section
@@ -64,27 +62,29 @@ Now you need to copy and paste it in JabRef preferences. To do this:
     
 If you have some money on your credit balance, you can chat with your library!
 
-In order to increase credit balance on OpenAI, do this:
+In order to increase your credit balance on OpenAI, do this:
 
 1. Add payment method [there](https://platform.openai.com/settings/organization/billing/payment-methods).
 2. Add credit balance on [this](https://platform.openai.com/settings/organization/billing/overview) page.
 
 ## AI preferences
 
-Here are some news options in JabRef preferences. 
+Here are some new options in the JabRef preferences. 
 
 ![AI preferences](../img/AiPreferences.png)
 
 - "Enable chatting with PDFs": by default chatting is turned off, so you need to check this option, if you want to use the new AI features
 - "OpenAI token": here you page your API token
-- "Expert settings": here you can change the parameters that affect how AI will generate your answers. If you don't understand the meaning of those settings, don't worry! We have experimented a lot and found the best parameters for you! 
+- "Expert settings": here you can change the parameters that affect how AI will generate your answers. If you don't understand the meaning of those settings, don't worry! We have experimented a lot and found the best parameters for you!
 
 ## End
 
 Thank you for using JabRef and checking out the AI functionality!
 
-This is a only in one step of the Google Summer of Code project, so stay tuned for new AI features!
+This is only one step of the Google Summer of Code project, so stay tuned for new AI features!
 
-Currently the chatting is under development, so some bugs may occurr.
+Currently the chatting is under development, so some bugs may occur.
 
-We value your opinion and we want to know: what AI features would you like to see in JabRef in future? What LLM providers (Azure, Google, etc.) you would like to have in next versions?
+We value your opinion and we want to know: What AI features would you like to see in JabRef in future? What LLM providers would you like to have in next versions?
+
+(List of LLM providers: [Huggingface](https://huggingface.co/pricing#endpoints), [Azure](https://azure.microsoft.com/en-us/products/#ai-machine-learning), [Together.AI](https://www.together.ai/), [Google](https://ai.google/discover/our-models/), [MistralAI](https://mistral.ai/), [Anthrophic](https://www.anthropic.com/), [Meta](https://llama.meta.com/), ... )
