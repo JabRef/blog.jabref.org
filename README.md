@@ -26,7 +26,7 @@ and go to <http://localhost:4000/> in your browser.
 On Windows, using a dockerized environment is recommended:
 
 ```terminal
-docker run -p 4000:4000 --rm --volume="C:\git-repositories\jabref\blog.jabref.org":/srv/jekyll jekyll/jekyll:4 jekyll serve
+docker run -p 4000:4000 --rm --volume="C:\git-repositories\blog.jabref.org":/srv/jekyll jekyll/jekyll:4 jekyll serve
 ```
 
 In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and rerun.
@@ -34,7 +34,7 @@ In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and 
 Incremental building is also possible:
 
 ```terminal
-docker run -p 4000:4000 --rm --volume="C:\git-repositories\jabref\blog.jabref.org":/srv/jekyll jekyll/jekyll:4 jekyll serve --incremental
+docker run -p 4000:4000 --rm --volume="C:\git-repositories\blog.jabref.org":/srv/jekyll jekyll/jekyll:4 jekyll serve --incremental
 ```
 
 ## Updating the theme
