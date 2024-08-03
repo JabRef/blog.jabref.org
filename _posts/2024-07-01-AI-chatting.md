@@ -149,3 +149,4 @@ Currently the summarization chatting is under development, so some bugs may occu
 
 We value your opinion and we want to know: What AI features would you like to see in JabRef in future? What LLM providers would you like to have in next versions?
 
+(List of LLM providers: [Huggingface](https://huggingface.co/pricing#endpoints), [Azure](https://azure.microsoft.com/en-us/products/#ai-machine-learning), [Together.AI](https://www.together.ai/), [Google](https://ai.google/discover/our-models/), [MistralAI](https://mistral.ai/), [Anthrophic](https://www.anthropic.com/), [Meta](https://llama.meta.com/), ... )
