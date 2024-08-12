@@ -137,7 +137,7 @@ Here are some new options in the JabRef preferences.
 
 Have you ever wanted to try running a local LLM model on your computer with 100% privacy saved? We got you.
 
-We wrote a tutorial of how to install and use `ollama` and integrate it in JabRef.
+We wrote a tutorial of how to install and use `ollama` and integrate it in JabRef. You will find more information at the [user documentation](TODO: LINK).
 
 ## End
 
