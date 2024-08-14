@@ -50,20 +50,18 @@ I was wondering, how much chocolate should a human eat in a day? Let's dive in t
 
 In the background, JabRef analyses the linked PDF files of library entries. The information used after the indexing is then supplied to the AI, which, to be precise, in our case is a Large Language Model (LLM).
 The LLM is currently not stored on your computer. Instead, we have many integrations with AI providers (OpenAI, Mistral AI, Hugging Face), so you can choose the one you like the most.
-These AI providers are available only remotely via the internet. In short: we send chunks of text to AI service and then receive processed responses. In order to use it you need to configure JabRef to use your API key.
+We send chunks of text to AI service and then receive processed responses. In order to use it you need to configure JabRef to use your API key.
 
 ## Which AI provider should I use?
 
-We recomend you chosing [OpenAI](https://platform.openai.com/docs/models).
+For now, we recomend you chosing [OpenAI](https://platform.openai.com/docs/models).
 
-For Mistral AI you need to make a subscription, while for OpenAI you can send money one time.
+For Mistral AI you might need to make a subscription, while for OpenAI you can send money one time.
 
 Hugging Face gives you access to numerous count of models for free.
-
 However, it will take a very long time for Hugging Face to find a free computer resources for you, and the response time will be also long.
 
-## How to get an API key and what should I do after getting one?
-
+In order to use any service, you always need an API key.
 Please head to the [AI user documentation](https://docs.jabref.org/ai/ai-providers-and-api-keys) to learn about how to receive a key and where to enter it in the preferences.
 
 ## AI preferences
@@ -74,7 +72,7 @@ Here are some new options in the JabRef preferences.
 
 - "Enable AI functionality in JabRef": by default it is turned off, so you need to check this option, if you want to use the new AI features
 - "AI provider": you can choose either OpenAI, Mistral AI, or Hugging Face
-- "Chat model": choose the model you like (for OpenAI we recommend `gpt-4o-mini`, as it the cheapest and fastest)
+- "Chat model": choose the model you like (for OpenAI we recommend `gpt-4o-mini`, as to date, it is the cheapest and fastest, although we also recommend to look up the prices from time to time, as they are subject to change)
 - "API token": here you write your API token
 - "Expert settings": here you can change the parameters that affect how AI will generate your answers. If you don't understand the meaning of those settings, don't worry! We have experimented a lot and found the best parameters for you! But if you are curious, then you can refer to [user documentation]()
 
