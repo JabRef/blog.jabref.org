@@ -84,7 +84,9 @@ We wrote a tutorial of how to install and use `ollama` and integrate it in JabRe
 
 You find more information at the [user documentation](https://docs.jabref.org/ai/local-llm).
 
-## End
+## Are you curious?
+
+Try the AI features in our current development version and play around with the new feature 
 
 Thank you for using JabRef and checking out the AI functionality!
 
