@@ -74,11 +74,11 @@ Here are some new options in the JabRef preferences.
 - "AI provider": you can choose either OpenAI, Mistral AI, or Hugging Face
 - "Chat model": choose the model you like (for OpenAI we recommend `gpt-4o-mini`, as to date, it is the cheapest and fastest, although we also recommend to look up the prices from time to time, as they are subject to change)
 - "API token": here you write your API token
-- "Expert settings": here you can change the parameters that affect how AI will generate your answers. If you don't understand the meaning of those settings, don't worry! We have experimented a lot and found the best parameters for you! But if you are curious, then you can refer to [user documentation]()
+- "Expert settings": the defaults provide good results. In case you would like to modify them, our [user documentation](https://docs.jabref.org/ai) provides an explanation of it
 
 ## BONUS
 
-Have you ever wanted to try running a local LLM model on your computer with 100% privacy saved? We got you.
+Have you ever considered running a local LLM on your computer while ensuring complete privacy?
 
 We wrote a tutorial of how to install and use `ollama` and integrate it in JabRef.
 
@@ -86,7 +86,7 @@ You find more information at the [user documentation](https://docs.jabref.org/ai
 
 ## Are you curious?
 
-Try the AI features in our current development version and play around with the new feature 
+Try the AI features in our current development version and play around with the new feature
 
 Thank you for using JabRef and checking out the AI functionality!
 
