@@ -80,9 +80,9 @@ Finally, iF you are asking yourself, where can I find an API key and what is it 
 Yes, by the way, there are some new options in the JabRef preferences, such as
 
 - "Enable AI functionality in JabRef": by default it is turned off, so you need to check this option if you want to use the new AI features.
-- "AI provider": you can choose either OpenAI, Mistral AI, or Hugging Face
+- "AI provider": you can choose either OpenAI, Mistral AI, or Hugging Face.
 - "Chat model": choose the model you like
-- "API token": here you write your API token
+- "API token": here you write your API token.
 - "Expert settings": the defaults provide good results. In case you would like to modify them, our [user documentation](https://docs.jabref.org/ai) provides an explanation of it.
 
 ![AI preferences](../img/AiPreferences.png)
@@ -90,17 +90,13 @@ Yes, by the way, there are some new options in the JabRef preferences, such as
 ## BONUS
 
 Have you ever considered running a local LLM on your computer while ensuring complete privacy?
-
 I wrote a tutorial of how to install and use `ollama` and integrate it in JabRef.
-
+``
 You find more information at the [user documentation](https://docs.jabref.org/ai/local-llm).
 
 ## Are you curious?
 
-Try the AI features in our current development version and explore the new functionality.
-
-Thank you for using JabRef and checking out the AI functionality!
+Try the AI features in our [current development version](https://builds.jabref.org/main/) and explore the new functionality.
 
 We value your opinion and want to know: What AI features would you like to see in JabRef in the future? What LLMs or other integrations would you like in upcoming versions?
-
 Please show up in our [Feedback forum](https://discourse.jabref.org/c/feedback/3).
