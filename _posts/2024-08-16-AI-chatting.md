@@ -83,7 +83,7 @@ Yes, by the way, there are some new options in the JabRef preferences, such as
 - "AI provider": you can choose either OpenAI, Mistral AI, or Hugging Face
 - "Chat model": choose the model you like
 - "API token": here you write your API token
-- "Expert settings": the defaults provide good results. In case you would like to modify them, our [user documentation](https://docs.jabref.org/ai) provides an explanation of it
+- "Expert settings": the defaults provide good results. In case you would like to modify them, our [user documentation](https://docs.jabref.org/ai) provides an explanation of it.
 
 ![AI preferences](../img/AiPreferences.png)
 
