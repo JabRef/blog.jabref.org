@@ -79,7 +79,7 @@ Finally, iF you are asking yourself, where can I find an API key and what is it 
 
 Yes, by the way, there are some new options in the JabRef preferences, such as
 
-- "Enable AI functionality in JabRef": by default it is turned off, so you need to check this option if you want to use the new AI features
+- "Enable AI functionality in JabRef": by default it is turned off, so you need to check this option if you want to use the new AI features.
 - "AI provider": you can choose either OpenAI, Mistral AI, or Hugging Face
 - "Chat model": choose the model you like
 - "API token": here you write your API token
