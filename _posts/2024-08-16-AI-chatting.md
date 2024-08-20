@@ -91,7 +91,7 @@ Yes, by the way, there are some new options in the JabRef preferences, such as
 
 Have you ever considered running a local LLM on your computer while ensuring complete privacy?
 I wrote a tutorial of how to install and use `ollama` and integrate it in JabRef.
-``
+
 You find more information at the [user documentation](https://docs.jabref.org/ai/local-llm).
 
 ## Are you curious?
