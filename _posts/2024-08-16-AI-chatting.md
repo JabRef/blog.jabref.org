@@ -46,7 +46,7 @@ I was wondering, how much chocolate should a human eat? Let's ask it.
 
 ![AI second question and answer](../img/AiQuestion2.png)
 
-*Only 40 grams?* Well, our health is our wealth. And AI helped us to uncover this information!
+*Only 40 grams?* Well, our health is our wealth. Exciting that AI helped us to uncover this information!
 
 ## How does this work?
 
