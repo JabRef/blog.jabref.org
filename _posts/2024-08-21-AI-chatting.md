@@ -69,7 +69,6 @@ Let's break down the dataflow:
 > To use any of the providers, it is required to configure an API key in JabRef's preferences.
 
 JabRef has many integrations with AI providers, so you can choose the one you like the most 😊 
-
 There are various considerations, such as pricing, capabilities, speed, privacy policy and more (that may change at any time) to take into account that make it difficult to give a clear recommendation that will stand the test of time. I strongly recommend to look up the models pricing before you choose. Smaller models will be cheaper and faster than larger models, whereas larger models tend to outperform in terms of capabilities. In any case, here is the list of providers:
 
 - [OpenAI](https://platform.openai.com/docs/models)
