@@ -4,9 +4,7 @@ tags: [ai, gsoc]
 author: "[Ruslan](https://github.com/InAnYan)"
 ---
 
-My name is Ruslan and I am currently working on integrating AI into JabRef in the context of [Google Summer of Code 2024](https://summerofcode.withgoogle.com/).
-
-﻿I am thrilled to present the cutting-edge AI capabilities now integrated into JabRef, namely the "AI Summary" and the "AI Chat" features. These Innovations are designed to revolutionize your research experience!
+My name is Ruslan and I am currently working on [integrating AI into JabRef in the context of Google Summer of Code 2024](https://summerofcode.withgoogle.com/programs/2024/projects/nFxX1kbl). I am thrilled to present the cutting-edge AI capabilities now integrated into JabRef, namely the "AI Summary" and the "AI Chat" features. These Innovations are designed to revolutionize your research experience!
 
 In short:
 
@@ -28,24 +26,28 @@ The next new entry editor tab is "AI Chat," where all the questions and answers 
 In the window below, you can see the following elements:
 
 - The chat history with your messages
-- A button called "submit" that allows you to send a message (also commonly called "prompting")
+- A button labeled "Submit" that allows you to send a message (also commonly called "prompting")
 - A button for clearing the chat history
 
 ![AI chat tab screenshot](../img/AiChat.png)
 
-Let's try it out with the following paper: "Cooper, K., Donovan, J., Waterhouse, A., & Williamson, G. (2007). Cocoa and health: a decade of research. *British Journal of Nutrition*, 99(1), 1–11. doi:[10.1017/s0007114507795296](https://doi.org/10.1017/s0007114507795296)"
+Let's try it out with the following paper: "Cooper, K., Donovan, J., Waterhouse, A., & Williamson, G. (2007). Cocoa and health: a decade of research. *British Journal of Nutrition*, 99(1), 1–11. doi:[10.1017/s0007114507795296](https://doi.org/10.1017/s0007114507795296)".
 
-Let's ask about the chocoloate.
+Let's ask about the chocoloate and ask the AI how chocolate affects the human body.
 
 ![AI first question and answer](../img/AiQuestion1.png)
 
-Correct! The authors discuss chocolate components extensively and how it can be a powerful antioxidant.
+The AI answers with 6 results, which are correct:
+The authors discuss chocolate components extensively and how it can be a powerful antioxidant.
 
-I was wondering, how much chocolate should a human eat? Let's ask it.
+Afterwards, I was wondering, how much chocolate should a human eat? Let's ask it:
 
 ![AI second question and answer](../img/AiQuestion2.png)
 
-*Only 40 grams?* Well, our health is our wealth. Exciting that AI helped us to uncover this information!
+It answered that a commonly cited amount is about 40 grams of chocolate per day.
+*Only 40 grams?*
+Well, our health is our wealth.
+Exciting that AI helped us to uncover this information!
 
 ## How does this work?
 
@@ -65,22 +67,21 @@ We have many integrations with AI providers, so you can choose the one you like 
 
 There are various considerations, such as pricing, capabilities, speed, privacy policy and more (that may change at any time) to take into account that make it difficult to give a clear recommendation that will stand the test of time. I strongly recommend to look up the models pricing before you choose. Smaller models will be cheaper and faster than larger models, whereas larger models tend to outperform in terms of capabilities. In any case, here is the list of providers:
 
-[OpenAI](https://platform.openai.com/docs/models).
-[MistralAI](https://docs.mistral.ai/getting-started/models/)
-[Huggingface](https://huggingface.co/models?pipeline_tag=text-generation&sort=trending)
-
+- [OpenAI](https://platform.openai.com/docs/models)
+- [MistralAI](https://docs.mistral.ai/getting-started/models/)
+- [Huggingface](https://huggingface.co/models?pipeline_tag=text-generation&sort=trending)
 
 While OpenAI deserved a spot because of its popularity, Mistral's models are high up there in the benchmarks too and they led the way in terms of releasing [open weight](https://github.com/Open-Weights/Definition) models with Apache 2.0 licenses, which should warm the heart of anybody favouring Open Source. Hugging Face is currently a little bit special, as they give you access to thousands of open weight models [for free](https://huggingface.co/docs/api-inference/index), including ones with commercially friendly licenses (Apache 2.0, MIT), however, it may take a long time for Hugging Face to allocate free computing resources, resulting in longer response times, unless you choose (and pay) for a [GPU space](https://huggingface.co/docs/hub/spaces-gpus) that is much faster at inference.
 
-Finally, iF you are asking yourself, where can I find an API key and what is it even? Please head to the [AI user documentation](https://docs.jabref.org/ai/ai-providers-and-api-keys) to learn about how to receive a key and where to enter it in the preferences.
+Finally, if you are asking yourself, where can I find an API key and what is it even? Please head to the [AI user documentation](https://docs.jabref.org/ai/ai-providers-and-api-keys) to learn about how to receive a key and where to enter it in the preferences.
 
 ## AI preferences
 
-Yes, by the way, there are some new options in the JabRef preferences, such as
+There are some new options in the JabRef preferences:
 
 - "Enable AI functionality in JabRef": by default it is turned off, so you need to check this option if you want to use the new AI features.
 - "AI provider": you can choose either OpenAI, Mistral AI, or Hugging Face.
-- "Chat model": choose the model you like
+- "Chat model": choose the model you like.
 - "API token": here you write your API token.
 - "Expert settings": the defaults provide good results. In case you would like to modify them, our [user documentation](https://docs.jabref.org/ai) provides an explanation of it.
 
@@ -88,10 +89,10 @@ Yes, by the way, there are some new options in the JabRef preferences, such as
 
 ## BONUS
 
-Have you ever considered running a local LLM on your computer while ensuring complete privacy?
-I wrote a tutorial of how to install and use `ollama` and integrate it in JabRef.
-
-You find more information at the [user documentation](https://docs.jabref.org/ai/local-llm).
+Sometimes, one wants to host a LLM locally on machine to ensure complete privacy.
+This is also possible!
+Please follow out my [tutorial](https://docs.jabref.org/ai/local-llm) to get started.
+The tutorial covers how to install and use `ollama` and integrate it in JabRef.
 
 ## Are you curious?
 
