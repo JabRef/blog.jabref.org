@@ -4,12 +4,15 @@ tags: [ai, gsoc]
 author: "[Ruslan](https://github.com/InAnYan)"
 ---
 
-My name is Ruslan and I am currently working on [integrating AI into JabRef in the context of Google Summer of Code 2024](https://summerofcode.withgoogle.com/programs/2024/projects/nFxX1kbl). I am thrilled to present the cutting-edge AI capabilities now integrated into JabRef, namely the "AI Summary" and the "AI Chat" features. These Innovations are designed to revolutionize your research experience!
+My name is Ruslan and I am currently working on [integrating AI into JabRef in the context of Google Summer of Code 2024](https://summerofcode.withgoogle.com/programs/2024/projects/nFxX1kbl).
+I am thrilled to present the cutting-edge AI capabilities.
+They are already integrated into [JabRef's development build](https://builds.jabref.org/main/) and planned to be available in the upcoming [JabRef 6.0-alpha release](https://github.com/JabRef/jabref/milestone/34), too.
+These innovations are designed to revolutionize your research experience!
 
-In short:
+In short, I added two features:
 
-- **AI Summary**: With this feature, you can generate a summary of a research paper
-- **AI Chat**: This feature allows you to chat with your scientific papers
+- **AI Summary**: you can generate a summary of a research paper
+- **AI Chat**: this entry editor tab allows you to chat with your scientific papers
 
 ## AI Summary
 
