@@ -33,7 +33,6 @@ In the window below, you can see the following elements:
 
 ![AI chat tab screenshot](../img/AiChat.png)
 
-
 Let's try it out with the following paper: "Cooper, K., Donovan, J., Waterhouse, A., & Williamson, G. (2007). Cocoa and health: a decade of research. *British Journal of Nutrition*, 99(1), 1–11. doi:[10.1017/s0007114507795296](https://doi.org/10.1017/s0007114507795296)"
 
 Let's ask about the chocoloate.
