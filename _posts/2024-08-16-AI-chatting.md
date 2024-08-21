@@ -4,7 +4,7 @@ tags: [ai, gsoc]
 author: "[Ruslan](https://github.com/InAnYan)"
 ---
 
-My name is Ruslan and currently working on integrating AI into JabRef in the context of [Google Summer of Code 2024](https://summerofcode.withgoogle.com/).
+My name is Ruslan and I am currently working on integrating AI into JabRef in the context of [Google Summer of Code 2024](https://summerofcode.withgoogle.com/).
 
 ﻿I am thrilled to present the cutting-edge AI capabilities now integrated into JabRef, namely the "AI Summary" and the "AI Chat" features. These Innovations are designed to revolutionize your research experience!
 
