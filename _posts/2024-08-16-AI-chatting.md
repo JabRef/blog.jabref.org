@@ -13,7 +13,8 @@ In short:
 
 ## AI Summary
 
-I have introduced a new entry editor tab named "AI Summary". Here, you can use the AI to generate a quick overview of the scientific paper.
+I have introduced a new entry editor tab named "AI Summary".
+Here, you can use the AI to generate a quick overview of the scientific paper.
 
 ![AI summary tab screenshot](../img/AiSummary.png)
 
@@ -38,7 +39,7 @@ Let's ask about the chocoloate and ask the AI how chocolate affects the human bo
 ![AI first question and answer](../img/AiQuestion1.png)
 
 The AI answers with 6 results, which are correct:
-The authors discuss chocolate components extensively and how it can be a powerful antioxidant.
+the authors discuss chocolate components extensively and how it can be a powerful antioxidant.
 
 Afterwards, I was wondering, how much chocolate should a human eat? Let's ask it:
 
@@ -63,7 +64,8 @@ Let's break down the dataflow:
 
 > [!Note]
 > To use any of the providers, it is required to configure an API key in JabRef's preferences.
-We have many integrations with AI providers, so you can choose the one you like the most 😊 
+
+JabRef has many integrations with AI providers, so you can choose the one you like the most 😊 
 
 There are various considerations, such as pricing, capabilities, speed, privacy policy and more (that may change at any time) to take into account that make it difficult to give a clear recommendation that will stand the test of time. I strongly recommend to look up the models pricing before you choose. Smaller models will be cheaper and faster than larger models, whereas larger models tend to outperform in terms of capabilities. In any case, here is the list of providers:
 
@@ -98,5 +100,7 @@ The tutorial covers how to install and use `ollama` and integrate it in JabRef.
 
 Try the AI features in our [current development version](https://builds.jabref.org/main/) and explore the new functionality.
 
-We value your opinion and want to know: What AI features would you like to see in JabRef in the future? What LLMs or other integrations would you like in upcoming versions?
+Your opinion is highly appreciated:
+what AI features would you like to see in JabRef in the future?
+What LLMs or other integrations would you like in upcoming versions?
 Please show up in our [Feedback forum](https://discourse.jabref.org/c/feedback/3).
