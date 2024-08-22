@@ -1,6 +1,7 @@
 ---
 title: "Google Summer of Code 2019: User Interface"
 tags: [gsoc]
+author: david
 ---
 
 Hi!

@@ -1,6 +1,7 @@
 ---
 title: "Google Summer of Code 2019: First Steps"
 tags: [gsoc]
+author: david
 ---
 
 Hello!

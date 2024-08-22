@@ -1,6 +1,7 @@
 ---
 title: "Google Summer of Code 2019: 'LaTeX Citations' tab"
 tags: [gsoc]
+author: david
 ---
 
 Hello!
