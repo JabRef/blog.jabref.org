@@ -1,7 +1,7 @@
 ---
 title: JabRef Interaction with LibreOffice Explained
 tags: [howto]
-author: "[Felix Wilke](https://github.com/teertinker)"
+author: teertinker
 ---
 Today's blog post will highlight the interaction between JabRef and LibreOffice, the [open-source alternative](https://www.libreoffice.org/) to Microsoft Office.
 It is presented to you by a JabRef user, [Felix Wilke](https://github.com/teertinker), who is also a code contributor.

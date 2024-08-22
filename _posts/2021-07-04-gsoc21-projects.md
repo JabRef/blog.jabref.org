@@ -1,7 +1,7 @@
 ---
 title: "JabRef GSoC’21 Projects"
 tags: [gsoc]
-author: JabRef GSoC Mentee
+author: mentee
 ---
 
 Hey everyone, Today's blog is about the projects selected for GSoC and a little sneak peek into the projects.
