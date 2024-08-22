@@ -11,16 +11,20 @@ houssem:
   url: https://github.com/HoussemNasri
 
 ruslan:
-  name: Ruslan 
+  name: Ruslan
   url: https://github.com/InAnYan
 
 david:
-  name: David 
+  name: David
   url: https://github.com/davidemdot
 
 teertinker:
   name: Felix Wilke
   url: https://github.com/teertinker
 
+subhramit:
+  name: Subhramit Basu
+  url: https://github.com/subhramit
+
 mentee:
- name: JabRef GSoC Mentee  
+ name: JabRef GSoC Mentee
