@@ -1,0 +1,26 @@
+## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
+# -------------------------------------
+# {author_id}:
+#   name: {full name}
+#   twitter: {twitter_of_author}
+#   url: {homepage_of_author}
+# ------------------------------------
+
+houssem:
+  name: Houssem
+  url: https://github.com/HoussemNasri
+
+ruslan:
+  name: Ruslan 
+  url: https://github.com/InAnYan
+
+david:
+  name: David 
+  url: https://github.com/davidemdot
+
+teertinker:
+  name: Felix Wilke
+  url: https://github.com/teertinker
+
+mentee:
+ name: JabRef GSoC Mentee  
