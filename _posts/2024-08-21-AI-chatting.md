@@ -59,16 +59,16 @@ JabRef mainly makes use of Large Language Models (LLMs).
 
 Let's break down the dataflow:
 
-* **Create Embeddings:** First of all, JabRef uses a smaller "embedding model" locally on your computer. This model converts the extracted chunks of text from PDFs into numerical representations called embeddings. Embeddings capture the meaning and relationships between words in a way that Large Language Models can understand.
-* **Sending Data to the API:**  JabRef then sends these embeddings (along with any other relevant context, such as the chat history) to an API. Think of an API as a set of rules and instructions that allow different software applications to talk to each other. If you choose an external AI service provider, such as OpenAI, Mistral or Hugging Face, the data will leave your computer. If you choose an OpenAI API compatible application that purely operates on your local computer, it is possible to store the LLM on your computer and process the data there, but some of them also allow you to make use of remote model hosting. In all cases, be it a separate application or a remote AI service provider, their particular privacy policy will apply.
-* **Processing by the LLM:** The chosen AI service provider or the separate application will process the embeddings via a LLM (or a similar technology) and send a response back to JabRef, which is then displayed in the UI.
+- **Create Embeddings:** First of all, JabRef uses a smaller "embedding model" locally on your computer. This model converts the extracted chunks of text from PDFs into numerical representations called embeddings. Embeddings capture the meaning and relationships between words in a way that Large Language Models can understand.
+- **Sending Data to the API:**  JabRef then sends these embeddings (along with any other relevant context, such as the chat history) to an API. Think of an API as a set of rules and instructions that allow different software applications to talk to each other. If you choose an external AI service provider, such as OpenAI, Mistral or Hugging Face, the data will leave your computer. If you choose an OpenAI API compatible application that purely operates on your local computer, it is possible to store the LLM on your computer and process the data there, but some of them also allow you to make use of remote model hosting. In all cases, be it a separate application or a remote AI service provider, their particular privacy policy will apply.
+- **Processing by the LLM:** The chosen AI service provider or the separate application will process the embeddings via a LLM (or a similar technology) and send a response back to JabRef, which is then displayed in the UI.
 
 ## Which AI provider should I use?
 
 > To use any of the providers, it is required to configure an API key in JabRef's preferences.
 {: .prompt-info }
 
-JabRef has many integrations with AI providers, so you can choose the one you like the most 😊 
+JabRef has many integrations with AI providers, so you can choose the one you like the most 😊
 There are various considerations, such as pricing, capabilities, speed, privacy policy and more (that may change at any time) to take into account that make it difficult to give a clear recommendation that will stand the test of time. I strongly recommend to look up the models pricing before you choose. Smaller models will be cheaper and faster than larger models, whereas larger models tend to outperform in terms of capabilities. In any case, here is the list of providers:
 
 - [OpenAI](https://platform.openai.com/docs/models)
