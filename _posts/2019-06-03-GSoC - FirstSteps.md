@@ -26,7 +26,7 @@ I will develop several tools that analyze and check LaTeX text documents:
 In addition to this, if there is some time left, I would like to add a tool that supports connection to JabRef from external editors.
 
 Any feedback is more than welcome!
-[Forum](http://discourse.jabref.org/t/project-latex-integration-please-give-us-your-feedback/1660) |
+[Forum](https://discourse.jabref.org/t/project-latex-integration-please-give-us-your-feedback/1660) |
 [GitHub](https://github.com/JabRef/jabref/pull/5011) |
 [Gitter](https://gitter.im/JabRef/jabref)
 
@@ -37,7 +37,7 @@ During this time I was familiarizing myself with the community and setting up th
 
 - First meetings with the mentors, which included: initial introduction, code walk-through, discussion and prioritization of the use cases and thinking about the implementation.
 - Working on [small GitHub issues](https://github.com/JabRef/jabref/issues?q=is:issue+is:open+label:%22good+first+issue%22) and getting in touch with the community.
-- Creation of a [forum thread](http://discourse.jabref.org/t/project-latex-integration-please-give-us-your-feedback/1660) in which to ask users about the project while proposing some use cases and prototypes in order to get feedback and discuss further.
+- Creation of a [forum thread](https://discourse.jabref.org/t/project-latex-integration-please-give-us-your-feedback/1660) in which to ask users about the project while proposing some use cases and prototypes in order to get feedback and discuss further.
 - After that, defining the design details properly with the help of mentors.
 
 ## May 27, 2019 – Jun 02, 2019 (First week of coding)

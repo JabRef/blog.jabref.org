@@ -14,4 +14,4 @@ Of course, we will also publish the aggregated results here in the blog.
 
 [**Follow this link to the anonymous online survey.**](https://docs.google.com/forms/d/e/1FAIpQLSfO_xS9y5C9UALGsz0rFD5jgnVGuRbhvMXls3cf9NsGQNPZjg/viewform?usp=sf_link)
 
-If you have any questions or concerns please contact Linus Dietz <linus.dietz@tum.de>, who is a JabRef Maintainer and advisor to this thesis. For any general JabRef-related issues such as bug reports please use the [issue tracker on Github](https://github.com/JabRef/jabref) or ask your question in the [forums](http://discourse.jabref.org/).
+If you have any questions or concerns please contact Linus Dietz <linus.dietz@tum.de>, who is a JabRef Maintainer and advisor to this thesis. For any general JabRef-related issues such as bug reports please use the [issue tracker on Github](https://github.com/JabRef/jabref) or ask your question in the [forums](https://discourse.jabref.org/).

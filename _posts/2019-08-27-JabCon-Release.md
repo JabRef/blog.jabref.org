@@ -3,7 +3,7 @@ title: JabCon 2019 & JabRef 5.0 Alpha release
 tags: [release, jabcon]
 ---
 Last weekend the annual [JabCon](https://jabcon.jabref.org/) took place in Stuttgart, Germany, where the majority of the JabRef developers met in person and worked together to improve JabRef and discuss the roadmap for future releases.
-This year's JabCon was special as our Google Sumemr of Code student David also was able to attend. If you regulary [read our blog](http://blog.jabref.org/#august-06-2019-%E2%80%93-google-summer-of-code-2019-latex-citations-tab), you will have already seen some previews of the LaTeX-Citation-Search feature he developed.
+This year's JabCon was special as our Google Sumemr of Code student David also was able to attend. If you regulary [read our blog](https://blog.jabref.org/#august-06-2019-%E2%80%93-google-summer-of-code-2019-latex-citations-tab), you will have already seen some previews of the LaTeX-Citation-Search feature he developed.
 At the JabCon, we were finally able to release an alpha version of the upcoming JabRef 5.0 after more than one year of hard work! ❤️ 🎆
 
 The major change is the new user interface, and our primary focus was on reducing the number of bugs to make JabRef 5.0 more stable.

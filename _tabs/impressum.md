@@ -49,4 +49,4 @@ Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unt
 
 Siehe [Datenschutzerklärung](../datenschutz).
 
-**Sonstiges:** Dieses Impressum basiert auf <https://www.datenschutzbeauftragter-info.de/> und <http://www.impressum-generator.de/> von der [Kanzlei Hasselbach, Frankfurt](http://www.kanzlei-hasselbach.de/rechtsanwalt-frankfurt/).
+**Sonstiges:** Dieses Impressum basiert auf <https://www.datenschutzbeauftragter-info.de/> und <https://www.impressum-generator.de/> von der [Kanzlei Hasselbach, Frankfurt](https://www.kanzlei-hasselbach.de/rechtsanwalt-frankfurt/).

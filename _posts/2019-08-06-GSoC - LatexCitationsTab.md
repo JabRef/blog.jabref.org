@@ -13,7 +13,7 @@ Regarding the user interface, we have added a tab to the entry editor, improved 
 
 Now we need your feedback!
 We will take it into account to keep improving this feature.
-[Forum](http://discourse.jabref.org/t/project-latex-integration-please-give-us-your-feedback/1660) |
+[Forum](https://discourse.jabref.org/t/project-latex-integration-please-give-us-your-feedback/1660) |
 [GitHub](https://github.com/JabRef/jabref/issues/5002) |
 [Gitter](https://gitter.im/JabRef/jabref)
 
