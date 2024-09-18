@@ -75,5 +75,5 @@ Thank you very much for answering our questions and your contributions in the pa
 Nerd facts:
 
 - The [first commit](https://github.com/JabRef/jabref/commit/65e697572b0715f282f8545dd59a1cf2ea129b60) in the source repository dates October 14, 2003, and Version 1.0 was released on November 29, 2003.
-- The [first homepage of JBibtexManager](https://web.archive.org/web/20030610052723/http://csb.stanford.edu/nbatada/JBibtexManager/)
-- The [first homepage of JabRef](https://web.archive.org/web/20040127145350/http://jabref.sourceforge.net/)
+- The [first homepage of JBibtexManager](https://web.archive.org/web/20030610052723/https://csb.stanford.edu/nbatada/JBibtexManager/)
+- The [first homepage of JabRef](https://web.archive.org/web/20040127145350/https://jabref.sourceforge.net/)

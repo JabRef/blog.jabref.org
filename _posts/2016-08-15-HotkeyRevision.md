@@ -32,4 +32,4 @@ Keys - new | Keys - old | Function
 
 If you would like to try the new system, you can try it out at [https://builds.jabref.org/master/](https://builds.jabref.org/master/).
 
-For questions about the functioning or suggestions for improvements, please use the [discussion forum](http://discourse.jabref.org/). In case you have trouble, report bugs on [GitHub]( https://github.com/JabRef/jabref/issues).
+For questions about the functioning or suggestions for improvements, please use the [discussion forum](https://discourse.jabref.org/). In case you have trouble, report bugs on [GitHub]( https://github.com/JabRef/jabref/issues).

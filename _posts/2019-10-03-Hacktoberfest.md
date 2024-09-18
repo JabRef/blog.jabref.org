@@ -3,7 +3,7 @@ title: JabRef celebrates Hacktoberfest 2019
 tags: [hacktoberfest]
 ---
 
-[![Hacktoberfest: Hacktoberfest 2019](/img/Hacktoberfest_19_Events_730x90.png)](http://www.jabref.org/hacktoberfest/2019.html)
+[![Hacktoberfest: Hacktoberfest 2019](/img/Hacktoberfest_19_Events_730x90.png)](https://www.jabref.org/hacktoberfest/2019.html)
 
 📅 🎃 October is here and that means that it's time for 2019's edition of **Hacktoberfest**!
 Want to help with the improvement of JabRef and even get a free T-shirt? Start contributing now:
@@ -20,6 +20,6 @@ Looking back, after going through that feedback, all former contributors said th
 
 After a [successful participation in Google's Summer of Code 2019](https://blog.jabref.org/2019/08/06/GSoC-LatexCitationsTab/) and giving feedback on many pull requests, we decided to take part in Hacktoberfest 2019.
 
-Check out our [Hacktoberfest 2919 Website](http://www.jabref.org/hacktoberfest/2019.html) for details and rules!
+Check out our [Hacktoberfest 2919 Website](https://www.jabref.org/hacktoberfest/2019.html) for details and rules!
 
 Always remember `Hacktoberfest value #2`: **Quantity is fun, quality is key**
