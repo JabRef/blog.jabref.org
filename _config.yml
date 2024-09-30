@@ -91,7 +91,7 @@ avatar: img/JabRef-icon-256.png
 avatar_link: https://www.jabref.org
 
 # boolean type, the global switch for ToC in posts.
-toc: false
+toc: true
 
 comments:
   active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
