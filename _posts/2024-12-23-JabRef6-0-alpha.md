@@ -23,7 +23,7 @@ We also took this as an opportunity to improve the importing and offline parsing
 
 ### CSL Style support in LibreOffice
 
-A long standing wish from many users could be integrated into JabRef, the support for using CSL styles in LibreOffice. You can now chosee between the old jstyles and the new CSL styles when inserting citations in LibreOffice. To learn more about this feature check out the  [GSOC blog post on CSL Libre Office integration](https://blog.jabref.org/2024/08/26/GSoC-CSL/).
+A long standing wish from many users could be integrated into JabRef, the support for using CSL styles in LibreOffice. You can now choose between the old jstyles and the new CSL styles when inserting citations in LibreOffice. To learn more about this feature check out the  [GSOC blog post on CSL Libre Office integration](https://blog.jabref.org/2024/08/26/GSoC-CSL/).
 
 ### New Search backend and floating mode
 
@@ -35,7 +35,7 @@ As part of this we finally brought back the so called "floating mode" for search
 
 Other notable changes inlcude:
 
-- a new Mardown Export format
+- a new Markdown Export format
 - the Medline/Pubmed importer imports PMID as well,
 - Performance improvements when indexing linked files
 - Clicking on a field in the integrity check now jumps to the corresponding field in the entry editor
@@ -47,7 +47,7 @@ Take a look at the [changelog](https://github.com/JabRef/jabref/blob/main/CHANGE
 
 ### Google Summer of Code
 
-We thank Gogle for the opporthnity and all three GSOC contributors for enhancing JabRef!
+We thank Google for the opporthnity and all three GSoC contributors for enhancing JabRef!
 
 ### Special Thanks
 
