@@ -7,7 +7,7 @@ We are excited to publish the first Alpha version of the upcoming Version 6.0. J
 
 This is an alpha release, there are still a few issues regarding the new search. However, we are still looking for your feedback to make sure the 6.0 stable will be a great release!.
 
-As always, we recommend making a backup of your bib files before trying out the new version.
+As always, but this time especially, we recommend making a backup of your bib files before trying out the new version.
 
 ## Release Highlights
 
