@@ -15,11 +15,11 @@ This release contains the results of this year's three GSOC projects.
 
 ### AI feature
 
-We know that some people are hesistant regarding AI stuff and therefore it's an opt-in.
-
 The two basic AI features are "AI based Summary for linked PDFs" and "AI chat". The latter one allows you to ask the AI questions about the linked paper's content. Learn more about the features in the [GSOC blog post on AI feature](https://blog.jabref.org/2024/08/21/AI-chatting/).
 
 We also took this as an opportunity to improve the importing and offline parsing of PDFs, e.g. searching the PDF contents for a DOI.
+
+We know that some people are hesistant to use AI technology and therefore these features are set up as opt-in feature.
 
 ### CSL Style support in LibreOffice
 
