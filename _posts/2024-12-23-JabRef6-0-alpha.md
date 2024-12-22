@@ -23,7 +23,7 @@ We know that some people are hesistant to use AI technology and therefore these 
 
 ### CSL Style support in LibreOffice
 
-A long standing wish from many users could be integrated into JabRef, the support for using CSL styles in LibreOffice. You can now choose between the old jstyles and the new CSL styles when inserting citations in LibreOffice. To learn more about this feature check out the  [GSOC blog post on CSL Libre Office integration](https://blog.jabref.org/2024/08/26/GSoC-CSL/).
+A long standing wish from many users could finally be integrated into JabRef - the support for using CSL styles via our LibreOffice integration. You can now choose between the old Jstyles and the new CSL styles when inserting citations into LibreOffice and generating bibliographies. To learn more about this feature check out the  [GSoC blog post on CSL LibreOffice integration](https://blog.jabref.org/2024/08/26/GSoC-CSL/).
 
 ### New Search backend and floating mode
 
