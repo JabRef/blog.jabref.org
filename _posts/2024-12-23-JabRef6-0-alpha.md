@@ -29,17 +29,21 @@ A long standing wish from many users could be integrated into JabRef, the suppor
 
 The second big new feature is the new search. The new search is now based on an embedded PostgresSQL database. Originally it was planned to use Lucene as well but due to limitations this was switched during the GSOC project.
 
-As part of this we finally brought back the so called "floating mode" for searches ![alt text](/img/Floating_Mode_Light_Theme.png)
-
-Take a look at the [changelog](https://github.com/JabRef/jabref/blob/main/CHANGELOG.md) for a full list of all changes.
+As part of this we finally brought back the so called "floating mode" for searches ![alt text](/img/Floating_Mode_Light_Theme.png) and fixed various other UI issues related to the search.
 
 ### Other changes
 
+Other notable changes inlcude:
 
+- a new Mardown Export format
+- the Medline/Pubmed importer imports PMID as well,
+- Performance improvements when indexing linked files
+- Clicking on a field in the integrity check now jumps to the corresponding field in the entry editor
+
+Take a look at the [changelog](https://github.com/JabRef/jabref/blob/main/CHANGELOG.md) for a full list of all changes.
 
 ## Known issues
 
-BST Style Preview might not correctly render certain LaTeX symbols correctly [#11338](https://github.com/JabRef/jabref/issues/11338).
 
 ### Google Summer of Code
 
