@@ -27,7 +27,7 @@ A long standing wish from many users could be integrated into JabRef, the suppor
 
 ### New Search backend and floating mode
 
-The second big new feature is the new search. The new search is now based on an embedded PostgresSQL database. Originally it was planned to use Lucene as well but due to limitations this was switched during the GSOC project.
+Another big new feature is the new search. It got a huge rework and is now based on an embedded PostgresSQL database, which notably offers huge performance gains, as felt by larger libraries. Originally it was planned to use Lucene, but due to limitations encountered, this was switched during the GSOC project.
 
 As part of this we finally brought back the so called "floating mode" for searches ![alt text](/img/Floating_Mode_Light_Theme.png) and fixed various other UI issues related to the search.
 
