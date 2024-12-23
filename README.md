@@ -46,3 +46,17 @@ docker run -p 4000:4000 --rm --volume="C:\git-repositories\blog.jabref.org":/srv
    3. `cd ../..`
 3. git commit and PR creation
 4. In case build fails because of missing assets, roll back the assets to the commit matching the release version of the theme.
+
+## Adding a blog entry for a new version
+
+### Contributors list
+
+See <https://blog.jabref.org/#december-18-2022-%E2%80%93-%F0%9F%8E%84-jabref-5-8-release-%F0%9F%8E%84> for an example for the list of contributors.
+
+To get the list of contributors, use [github-contributors-list](https://github.com/koppor/github-contributors-list)
+
+1. `jbang gcl@koppor/github-contributors-list --repository JabRef/jabref c:\git-repositories\jabref --startrevision=v5.13 --endrevision=v5.15 --filter=koppor,calixtus,Siedlerchr,tobiasdiez,but,k3KAW8Pnf7mkmdSMPHz27,HoussemNasri,apps/dependabot,apps/githubactions,ThiloteE,dependabot[bot],dependabot`
+2. Copy and paste the Markdown
+3. Preview
+4. Double check with <https://github.com/JabRef/jabref/graphs/contributors?from=2023-09-02&to=2023-10-22&type=c>
+5. Double check with merged PRs: <https://github.com/JabRef/jabref/pulls?q=is%3Apr+sort%3Aupdated-desc+is%3Amerged>. On 2023-10-22 (when the JavaScript-variant was used), contributors with PRs being merged on the release date did not show up. Example: <https://github.com/JabRef/jabref/pull/10497>
