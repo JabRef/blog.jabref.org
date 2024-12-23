@@ -67,7 +67,7 @@ The JabRef Team wishes all of you Happy Holidays and a Happy New Year!
 
 This time we want to give a special shootout to all the first time contributors at JabRef! We hope you had a positive experience so far and continue your contribution!
 
-We thank the following external contributors who contributed code to JabRef release 6.0 Alpha.
+We thank following external contributors who contributed code to this JabRef release:
 
 |  |  |  |  |  |  |
 | --  | --  | --  | --  | --  | --  |
