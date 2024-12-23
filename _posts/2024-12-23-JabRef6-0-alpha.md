@@ -1,6 +1,6 @@
 ---
 title: 🎄 JabRef 6.0-Alpha Release 🎄
-tags: [Release]
+tags: [release]
 ---
 
 We are excited to publish the first Alpha version of the upcoming Version 6.0. JabRef 6.0 Alpha already brings many new features, improvements and fixes.
@@ -50,6 +50,8 @@ Take a look at the [changelog](https://github.com/JabRef/jabref/blob/main/CHANGE
 We thank Google for the opporthnity and all three GSoC contributors for enhancing JabRef!
 
 ### Special Thanks
+
+The JabRef Team wishes all of you Happy Holidays and a Happy New Year!
 
 This time we want to give a special shootout to all the first time contributors at JabRef! We hope you had a positive experience so far and continue your contribution!
 
