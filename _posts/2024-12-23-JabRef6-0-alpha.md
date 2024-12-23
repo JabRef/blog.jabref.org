@@ -1,6 +1,6 @@
 ---
 title: 🎄 JabRef 6.0-Alpha Release 🎄
-tags: [Release]
+tags: [release]
 ---
 
 We are excited to publish the first Alpha version of the upcoming Version 6.0. JabRef 6.0 Alpha already brings many new features, improvements and fixes.
@@ -63,9 +63,11 @@ We thank Google for the opportunity and all three GSoC contributors for enhancin
 
 ### Special Thanks
 
-This time again we want to give a special shootout to all the first time contributors at JabRef! We hope you had a positive experience so far and continue contributing!
+The JabRef Team wishes all of you Happy Holidays and a Happy New Year!
 
-We thank the following external contributors who contributed code to JabRef for this alpha release:
+This time we want to give a special shootout to all the first time contributors at JabRef! We hope you had a positive experience so far and continue your contribution!
+
+We thank the following external contributors who contributed code to JabRef release 6.0 Alpha.
 
 |  |  |  |  |  |  |
 | --  | --  | --  | --  | --  | --  |
@@ -91,3 +93,5 @@ We thank the following external contributors who contributed code to JabRef for 
 | [Shun.L](https://github.com/ShunL12324) | [Subhramit Basu Bhowmick](https://github.com/subhramit) | [suftware](https://github.com/suftware) | [Tom Malone](https://github.com/tom) | [Tom Martin](https://github.com/Boston54) | [tomeg09](https://github.com/tomeg09) |
 | [<img alt="trickypr" src="https://avatars.githubusercontent.com/u/23250792?v=4&w=117" width="117">](https://github.com/trickypr) | [<img alt="u7676493" src="https://avatars.githubusercontent.com/u/184459285?v=4&w=117" width="117">](https://github.com/u7676493) | [<img alt="u7790708" src="https://avatars.githubusercontent.com/u/177816765?v=4&w=117" width="117">](https://github.com/u7790708) | [<img alt="Zhenxiong Luo" src="https://avatars.githubusercontent.com/u/146911309?v=4&w=117" width="117">](https://github.com/KumaLuo) | [<img alt="ZirunYe" src="https://avatars.githubusercontent.com/u/156483769?v=4&w=117" width="117">](https://github.com/ZirunYe) |  |
 | [trickypr](https://github.com/trickypr) | [u7676493](https://github.com/u7676493) | [u7790708](https://github.com/u7790708) | [Zhenxiong Luo](https://github.com/KumaLuo) | [ZirunYe](https://github.com/ZirunYe) |  |
+
+In addition, we want to thank all donators for their generous donations which enables us to continue working on JabRef!
