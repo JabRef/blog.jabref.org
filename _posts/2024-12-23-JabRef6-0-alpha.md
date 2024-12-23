@@ -11,11 +11,11 @@ As always, but this time especially, we recommend making a backup of your bib fi
 
 ## Release Highlights
 
-This release contains the results of this year's three GSOC projects.
+This release contains the results of this year's three GSoC projects.
 
 ### AI feature
 
-The two basic AI features are "AI based Summary for linked PDFs" and "AI chat". The latter one allows you to ask the AI questions about the linked paper's content. Learn more about the features in the [GSOC blog post on AI feature](https://blog.jabref.org/2024/08/21/AI-chatting/).
+The two basic AI features are "AI based Summary for linked PDFs" and "AI chat". The latter one allows you to ask the AI questions about the linked paper's content. Learn more about the features in the [GSoC blog post on AI feature](https://blog.jabref.org/2024/08/21/AI-chatting/).
 
 We also took this as an opportunity to improve the importing and offline parsing of PDFs, e.g. searching the PDF contents for a DOI.
 
@@ -27,7 +27,7 @@ A long standing wish from many users could finally be integrated into JabRef - t
 
 ### New Search backend and floating mode
 
-Another big new feature is the new search. It got a huge rework and is now based on an embedded PostgresSQL database, which notably offers huge performance gains, as felt by larger libraries. Originally it was planned to use Lucene, but due to limitations encountered, this was switched during the GSOC project.
+Another big new feature is the new search. It got a huge rework and is now based on an embedded PostgresSQL database, which offers huge performance gains, as felt prominently when working with larger libraries. Originally it was planned to use Lucene, but due to limitations encountered, this was switched during the GSoC project.
 
 As part of this we finally brought back the so called "floating mode" for searches ![alt text](/img/Floating_Mode_Light_Theme.png) and fixed various other UI issues related to the search.
 
