@@ -63,7 +63,7 @@ We thank Google for the opportunity and all three GSoC contributors for enhancin
 
 ### Special Thanks
 
-This time we want to give a special shootout to all the first time contributors at JabRef! We hope you had a positive experience so far and continue your contribution!
+This time again we want to give a special shootout to all the first time contributors at JabRef! We hope you had a positive experience so far and continue contributing!
 
 We thank the following external contributors who contributed code to JabRef for this alpha release:
 
