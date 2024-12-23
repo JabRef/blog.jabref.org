@@ -11,7 +11,7 @@ As always, but this time especially, we recommend making a backup of your bib fi
 
 ## Release Highlights
 
-This release contains the results of this year's three GSoC projects.
+This release contains the results of this year's three [GSoC](https://blog.jabref.org/tags/gsoc/) projects.
 
 ### AI feature
 
@@ -19,7 +19,7 @@ The two basic AI features are "AI based Summary for linked PDFs" and "AI chat". 
 
 We also took this as an opportunity to improve the importing and offline parsing of PDFs, e.g. searching the PDF contents for a DOI.
 
-We know that some people are hesistant to use AI technology and therefore these features are set up as opt-in feature.
+We know that some people are hesitant to use AI technology and therefore these features are set up as opt-in feature.
 
 ### CSL Style support in LibreOffice
 
@@ -33,26 +33,37 @@ As part of this we finally brought back the so called "floating mode" for search
 
 ### Other changes
 
-Other notable changes inlcude:
+Other notable changes include:
 
-- a new Markdown Export format
-- the Medline/Pubmed importer imports PMID as well,
+- A new Markdown Export format
+- The Medline/Pubmed importer imports PMID as well
 - Performance improvements when indexing linked files
 - Clicking on a field in the integrity check now jumps to the corresponding field in the entry editor
 
-Take a look at the [changelog](https://github.com/JabRef/jabref/blob/main/CHANGELOG.md) for a full list of all changes.
+Take a look at the [changelog](https://github.com/JabRef/jabref/blob/v6.0-alpha/CHANGELOG.md) for a full list of all changes.
 
-## Known issues
+## Breaking Changes
 
+The [search syntax of static groups](https://docs.jabref.org/finding-sorting-and-cleaning-entries/groups#using-a-free-form-search-expression) changed. One can now mix regex and non-regex search.
+
+## Known Issues
+
+The new search has several issues:
+
+- Searching for dates has issues ([#12296](https://github.com/JabRef/jabref/issues/12296))
+- Exceptions when updating an entry ([#12169](https://github.com/JabRef/jabref/issues/12167))
+- 100% CPU usage in some settings ([#12190](https://github.com/JabRef/jabref/issues/12190))
+- The new search syntax is not yet documented. One can read the grammar at [Search.g4](https://github.com/JabRef/jabref/blob/v6.0-alpha/src/main/antlr4/org/jabref/search/Search.g4)
+
+In case of CSL, there might be two bibliographies generated ([#12262](https://github.com/JabRef/jabref/issues/12262))
 
 ### Google Summer of Code
 
-We thank Google for the opporthnity and all three GSoC contributors for enhancing JabRef!
+We thank Google for the opportunity and all three GSoC contributors for enhancing JabRef!
 
 ### Special Thanks
 
 This time we want to give a special shootout to all the first time contributors at JabRef! We hope you had a positive experience so far and continue your contribution!
 
-We thank the following external contributors who contributed code to JabRef releases v5.14 and v5.15.
+We thank the following external contributors who contributed code to JabRef this alpha release:
 
-TODO:
