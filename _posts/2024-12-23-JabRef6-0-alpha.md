@@ -55,7 +55,7 @@ The new search has several issues:
 - 100% CPU usage in some settings ([#12190](https://github.com/JabRef/jabref/issues/12190))
 - The new search syntax is not yet documented. One can read the grammar at [Search.g4](https://github.com/JabRef/jabref/blob/v6.0-alpha/src/main/antlr4/org/jabref/search/Search.g4)
 
-In case of CSL, there might be two bibliographies generated ([#12262](https://github.com/JabRef/jabref/issues/12262))
+For the LibreOffice integration, there will be two bibliography sections generated when using Jstyles and CSL styles together ([#12262](https://github.com/JabRef/jabref/issues/12262))
 
 ### Google Summer of Code
 
