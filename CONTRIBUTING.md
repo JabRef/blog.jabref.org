@@ -15,3 +15,5 @@ Then, create a pull request.
 All your contribution is licensed as <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="CC-BY-4.0" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>.
 
 For more information, see the [general contributing guide](https://docs.jabref.org/contributing).
+
+<!-- markdownlint-disable-file MD033 -->
