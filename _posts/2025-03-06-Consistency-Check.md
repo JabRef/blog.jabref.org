@@ -15,10 +15,12 @@ With this new GUI, JabRef users can now:
 
 ## How to Use
 
+Please download the latest development build of JabRef from <https://builds.jabref.org/main/> since the feature is not present in the latest alpha release.
+
 1. Open JabRef and go to the Quality menu.
-2. Click on the Check Consistency option, which is located below Check Integrity.
-3. JabRef will run the BibliographyConsistencyCheck on your entire library and show the results in a new window.
-4. The result window will display entries grouped by their EntryType.
+2. Click on the "Check Consistency" option, which is located below "Check Integrity".
+3. JabRef will run the bibliography consistency check on your entire library and show the results in a new window.
+4. The result window will display entries grouped by their entry type.
 5. Each entry will be shown in a table with columns indicating whether required fields are present (x), optional fields are present (o), or if a field is missing (-).
 6. If any entry has missing fields, click on it to go directly to the entry in the entry editor.
 
