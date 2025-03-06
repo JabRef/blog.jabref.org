@@ -1,24 +1,19 @@
 ---
-title: JabRef's new Window for Bibliography Consistency Check
+title: JabRef's new GUI for Bibliography Consistency Check
 author: priyanshu
 ---
 
-Hi, I’m Priyanshu, an engineering student in Computer Science. In this blog post, I’m glad to introduce you to a new feature that I worked on: A new Window for checking bibliography consistency in JabRef.
+Hi, I’m Priyanshu, an engineering student in Computer Science. In this blog post, I’m glad to introduce you to a new feature that I worked on - a graphical user interface (GUI) for checking bibliography consistency in JabRef.
 
 ## Why it matters?
 
 You’re finalizing your research paper for an upcoming conference, and the deadline is near. While reviewing your references, you notice inconsistencies—some citations are missing DOIs, others have incorrect page numbers, and a few lack author names. Manually fixing these across dozens of entries is tedious and time-consuming.
+
 JabRef now makes this process effortless with its Bibliography Consistency Check feature. It automatically scans your references, identifies missing or inconsistent fields, and presents a structured report, allowing you to fix issues with just a few clicks.
-
-For each entry type, each field is checked whether the field is required, optional, unknown, or absent. JabRef reports issues in each category:
-
-- If an required field is absent: It is reported
-- If an optional field is present only at some entries (of the same entry type): It is reported
-- If an unknown field is present: it is reported
 
 ## What's new?
 
-With this new Window, JabRef users can now:
+With this new GUI, JabRef users can now:
 
 - **Check Bibliography Consistency**: Easily check the consistency of BibTeX entries across an entire library.
 - **View Results in a Structured Format**: The results are displayed in a clean, organized window with tables and symbols that indicate missing, optional, or required fields.
@@ -26,18 +21,10 @@ With this new Window, JabRef users can now:
 
 ## How to use
 
-Please download the latest development build of JabRef from <https://builds.jabref.org/main/> since the feature is not present in the latest alpha release.
-
 1. Open JabRef and go to the Quality menu.
-<<<<<<< HEAD:_posts/2025-03-06-Consistency-Check.md
-2. Click on the "Check Consistency" option, which is located below "Check Integrity".
-3. JabRef will run the bibliography consistency check on your entire library and show the results in a new window.
-4. The result window will display entries grouped by their entry type.
-=======
 2. Click on Check Consistency (below Check Integrity).
 3. JabRef will run the check on your entire library and show the results in a new window.
 4. The result window will display entries grouped by their entry type (e.g., articles, books).
->>>>>>> 1678844 (Changes according to reviews):_posts/2025-02-18-JabRef5-15.md
 5. Each entry will be shown in a table with columns indicating whether required fields are present (x), optional fields are present (o), or if a field is missing (-).
 6. If any entry has missing fields, click on it to go directly to the entry in the entry editor.
 
@@ -67,10 +54,9 @@ Here, the second entry is missing the journal field, which is required for an ar
 
 ![Check consistency dialog](<../img/checkconsistency.png>)
 
-
 The result window is designed to present the consistency check results in an easily digestible format:
 
-- **EntryType Headings**: Each entry type (such as article, book, inproceedings, etc.) will be listed as a heading.
+- **EntryType Headings**: Each EntryType (such as article, book, inproceedings, etc.) will be listed as a heading.
 - **Tables for Each EntryType**: Under each heading, you’ll see a table showing the citation key and fields associated with the entry.
   - **Column 1**: Citation key of the entry.
   - **Other columns**: Represent the fields and their status (`x`, `o`, `?`, or `-`).
