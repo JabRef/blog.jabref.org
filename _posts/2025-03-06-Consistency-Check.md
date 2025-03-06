@@ -1,13 +1,13 @@
 ---
-title: JabRef's new GUI for Bibliography Consistency Check
+title: JabRef's new Window for Bibliography Consistency Check
 author: priyanshu
 ---
 
-Hi, I’m Priyanshu, an engineering student in Computer Science. In this blog post, I’m glad to introduce you to a new feature that I worked on - a graphical user interface (GUI) for checking bibliography consistency in JabRef.
+Hi, I’m Priyanshu, an engineering student in Computer Science. In this blog post, I’m glad to introduce you to a new feature that I worked on: A new Window for checking bibliography consistency in JabRef.
 
 ## What's New?
 
-With this new GUI, JabRef users can now:
+With this new Window, JabRef users can now:
 
 - **Check Bibliography Consistency**: Easily check the consistency of BibTeX entries across an entire library.
 - **View Results in a Structured Format**: The results are displayed in a clean, organized window with tables and symbols that indicate missing, optional, or required fields.
@@ -28,7 +28,7 @@ Please download the latest development build of JabRef from <https://builds.jabr
 
 The result window is designed to present the consistency check results in an easily digestible format:
 
-- **EntryType Headings**: Each EntryType (such as article, book, inproceedings, etc.) will be listed as a heading.
+- **EntryType Headings**: Each entry type (such as article, book, inproceedings, etc.) will be listed as a heading.
 - **Tables for Each EntryType**: Under each heading, you’ll see a table showing the citation key and fields associated with the entry.
   - **Column 1**: Citation key of the entry.
   - **Other columns**: Represent the fields and their status (`x`, `o`, `?`, or `-`).
