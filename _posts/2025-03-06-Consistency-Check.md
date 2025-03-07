@@ -57,10 +57,10 @@ Here, the second entry is missing the journal field, which is required for an ar
 
 The result window is designed to present the consistency check results in an easily digestible format:
 
-- **EntryType Headings**: The first column shows the name of the selected entry type.
-- **Choose Entry type**: Entry types (such as article, book, in-proceedings, etc.) will be listed in a dropdown menu.
+- **Entry Type Headings**: The first column shows the name of the selected entry type.
+- **Choose Entry Type**: Entry types (such as article, book, in-proceedings, etc.) will be listed in a dropdown menu.
   - **Column 2**: Citation key of the entry.
-  - **Other columns**: Represent the fields and their status (`x`, `o`, `?`, or `-`).
+  - **Other Columns**: Represent the fields and their status (`x`, `o`, `?`, or `-`).
 - **Navigation**: Clicking on a line in the table will take you directly to the corresponding entry in the editor, making it easy to address inconsistencies.
 
 ## Symbols in the Results
