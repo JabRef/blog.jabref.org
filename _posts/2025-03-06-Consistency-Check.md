@@ -1,5 +1,5 @@
 ---
-title: JabRef's new GUI for Bibliography Consistency Check
+title: JabRef's new Window for Bibliography Consistency Check
 author: priyanshu
 ---
 
