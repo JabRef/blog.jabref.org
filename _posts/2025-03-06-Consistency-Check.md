@@ -7,7 +7,7 @@ Hi, I’m Priyanshu, an engineering student in Computer Science. In this blog po
 
 ## Why it matters?
 
-You’re finalizing your research paper for an upcoming conference, and the deadline is near. While reviewing your references, you notice inconsistencies - some citations are missing DOIs, others have incorrect page numbers, and a few lack author names. Manually identifying these across dozens of entries is tedious and time-consuming.
+You’re finalizing your research paper for an upcoming conference, and the deadline is near. While reviewing your references, you notice inconsistencies - some citations are missing DOIs, journal names, and a few lack author names. Manually identifying these across dozens of entries is tedious and time-consuming.
 
 JabRef now makes this process effortless with its Bibliography Consistency Check feature. It automatically scans your references, identifies missing or inconsistent fields, and presents a structured report, allowing you to fix issues with just a few clicks.
 
