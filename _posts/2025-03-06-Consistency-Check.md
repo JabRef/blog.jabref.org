@@ -3,11 +3,11 @@ title: JabRef's new GUI for Bibliography Consistency Check
 author: priyanshu
 ---
 
-Hi, I’m Priyanshu, an engineering student in Computer Science. In this blog post, I’m glad to introduce you to a new feature that I worked on - a graphical user interface (GUI) for checking bibliography consistency in JabRef.
+Hi, I’m Priyanshu, an engineering student in Computer Science. In this blog post, I’m glad to introduce you to a new feature that I worked on - a window for checking bibliography consistency in JabRef.
 
 ## Why it matters?
 
-You’re finalizing your research paper for an upcoming conference, and the deadline is near. While reviewing your references, you notice inconsistencies - some citations are missing DOIs, others have incorrect page numbers, and a few lack author names. Manually fixing these across dozens of entries is tedious and time-consuming.
+You’re finalizing your research paper for an upcoming conference, and the deadline is near. While reviewing your references, you notice inconsistencies - some citations are missing DOIs, others have incorrect page numbers, and a few lack author names. Manually identifying these across dozens of entries is tedious and time-consuming.
 
 JabRef now makes this process effortless with its Bibliography Consistency Check feature. It automatically scans your references, identifies missing or inconsistent fields, and presents a structured report, allowing you to fix issues with just a few clicks.
 
@@ -57,9 +57,9 @@ Here, the second entry is missing the journal field, which is required for an ar
 
 The result window is designed to present the consistency check results in an easily digestible format:
 
-- **EntryType Headings**: Each EntryType (such as article, book, inproceedings, etc.) will be listed as a heading.
-- **Tables for Each EntryType**: Under each heading, you’ll see a table showing the citation key and fields associated with the entry.
-  - **Column 1**: Citation key of the entry.
+- **EntryType Headings**: The first column lists the name of the selected entry type.
+- **Choose Entry type**: Entry types (such as article, book, in-proceedings, etc.) will be listed in a dropdown menu.
+  - **Column 2**: Citation key of the entry.
   - **Other columns**: Represent the fields and their status (`x`, `o`, `?`, or `-`).
 - **Navigation**: Clicking on a line in the table will take you directly to the corresponding entry in the editor, making it easy to address inconsistencies.
 
