@@ -7,7 +7,7 @@ Hi, I’m Priyanshu, an engineering student in Computer Science. In this blog po
 
 ## Why it matters?
 
-You’re finalizing your research paper for an upcoming conference, and the deadline is near. While reviewing your references, you notice inconsistencies - some citations are missing DOIs, journal names, and a few lack author names. Manually identifying these across dozens of entries is tedious and time-consuming.
+You’re finalizing your research paper for an upcoming conference, and the deadline is near. While reviewing your references, you notice inconsistencies - some citations are missing DOIs others are missing page numbers. Manually identifying these across dozens of entries is tedious and time-consuming.
 
 JabRef now makes this process effortless with its Bibliography Consistency Check feature. It automatically scans your references, identifies missing or inconsistent fields, and presents a structured report, allowing you to fix issues with just a few clicks.
 
@@ -17,12 +17,12 @@ With this new GUI, JabRef users can now:
 
 - **Check Bibliography Consistency**: Easily check the consistency of BibTeX entries across an entire library.
 - **View Results in a Structured Format**: The results are displayed in a clean, organized window with tables and symbols that indicate missing, optional, or required fields.
-- **Jump to Specific Entries**: Click on a specific entry in the result table to directly navigate to that entry in the entry editor.
+- **Jump to Entry with Error**: Click on a specific entry in the result table to directly navigate to that entry in the entry editor.
 
 ## How to use
 
 1. Open JabRef and go to the Quality menu.
-2. Click on Check Consistency (below Check Integrity).
+2. Click on "Check consistency" (below "Check integrity").
 3. JabRef will run the check on your entire library and show the results in a new window.
 4. The result window will display entries grouped by their entry type (e.g., articles, books).
 5. Each entry will be shown in a table with columns indicating whether required fields are present (x), optional fields are present (o), or if a field is missing (-).
