@@ -55,7 +55,7 @@ See <https://blog.jabref.org/#december-18-2022-%E2%80%93-%F0%9F%8E%84-jabref-5-8
 
 To get the list of contributors, use [github-contributors-list](https://github.com/koppor/github-contributors-list)
 
-1. `jbang gcl@koppor/github-contributors-list --repository JabRef/jabref c:\git-repositories\jabref --startrevision=v5.13 --endrevision=v5.15 --filter=koppor,calixtus,Siedlerchr,tobiasdiez,but,k3KAW8Pnf7mkmdSMPHz27,HoussemNasri,apps/dependabot,apps/githubactions,ThiloteE,dependabot[bot],dependabot`
+1. `jbang gcl@koppor/github-contributors-list --repository JabRef/jabref c:\git-repositories\jabref --startrevision=v6.0-alpha --endrevision=v6.0-alpha2 --filter=koppor,calixtus,Siedlerchr,tobiasdiez,but,k3KAW8Pnf7mkmdSMPHz27,HoussemNasri,apps/dependabot,apps/githubactions,ThiloteE,dependabot[bot],dependabot`
 2. Copy and paste the Markdown
 3. Preview
 4. Double check with <https://github.com/JabRef/jabref/graphs/contributors?from=2023-09-02&to=2023-10-22&type=c>
