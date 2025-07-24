@@ -4,6 +4,8 @@ tags: [gsoc]
 author: palukku
 ---
 
+Hello, I'm Philip, one of the [Google Summer of Code (GSoC) students at JabRef](https://summerofcode.withgoogle.com/programs/2025/projects/6Z6Fqv6g) this year, and I will be giving you a small introduction on JabRef's new Cite As You Write (CAYW) feature.
+
 When working with LaTeX editors, it is often a struggle to switch between JabRef and the editor to search for the according entries and their citation keys.
 This is especially true when working with large libraries, where the search can take a while.
 To make this easier, JabRef now offers a Cite As You Write (CAYW) endpoint that allows you to search for entries and their citation keys directly from your LaTeX editor and automatically insert them at your current cursor position.
