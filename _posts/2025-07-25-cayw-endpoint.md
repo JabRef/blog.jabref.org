@@ -17,7 +17,7 @@ To enable the HTTP server, go to `File` → `Preferences` → `General` and unde
 
 We are working on becoming fully compatible with the CAYW Endpoint of [Better BibTeX for Zotero](https://retorque.re/zotero-better-bibtex/citing/cayw/index.html).
 
-For a whole list of parameters and other editors, see our User Documentation.
+For a whole list of parameters and other editors, see our [User Documentation](https://docs.jabref.org/cite/cite-as-you-write).
 
 In this example, we will use [TeXstudio](https://www.texstudio.org/).
 
