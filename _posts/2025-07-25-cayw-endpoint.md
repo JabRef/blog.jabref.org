@@ -36,3 +36,9 @@ After that, you can save the macro and close the dialog by clicking `Ok`.
 Now you can use the macro by typing "aaa" and the search dialog opens up and you can then search for entries and select them.
 
 ![cayw-search.png](../img/cayw-search.png)
+
+## Are you curious?
+
+Try the CAYW feature in our [current development version](https://builds.jabref.org/main/) and explore the new functionality.
+
+Your opinion is highly appreciated: Please show up in our [Feedback forum](https://discourse.jabref.org/c/feedback/3).
