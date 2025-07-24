@@ -29,13 +29,16 @@ var url = "http://localhost:23119/better-bibtex/cayw??format=biblatex&texstudio=
 system("curl -sS '" + url + "'")
 ```
 
-![cayw-texstudio.png](../img/cayw-texstudio.png)
+![cayw-texstudio.png](../img/cayw-texstudio-macro.png)
 
 After that, you can save the macro and close the dialog by clicking `Ok`.
 
 Now you can use the macro by typing "aaa" and the search dialog opens up and you can then search for entries and select them.
 
+![cayw-texstudio.png](../img/cayw-texstudio.png)
 ![cayw-search.png](../img/cayw-search.png)
+![cayw-texstudio2.png](../img/cayw-texstudio2.png)
+
 
 ## Are you curious?
 
