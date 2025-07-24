@@ -1,5 +1,5 @@
 ---
-title: JabRef will offer a Cite As You Write (CAYW) endpoint
+title: JabRef offers basic Cite As You Write (CAYW) functionality
 tags: [gsoc]
 author: palukku
 ---
