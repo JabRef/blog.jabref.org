@@ -41,7 +41,6 @@ Now you can use the macro by typing "aaa" and the search dialog opens up and you
 ![cayw-search.png](../img/cayw-search.png)
 ![cayw-texstudio2.png](../img/cayw-texstudio2.png)
 
-
 ## Are you curious?
 
 Try the CAYW feature in our [current development version](https://builds.jabref.org/main/) and explore the new functionality.
