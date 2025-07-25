@@ -26,7 +26,7 @@ In this example, we will use [TeXstudio](https://www.texstudio.org/).
 Open TeXstudio and go to `Macros` → `Edit Macros`, there you have to set a `Name` and a `Trigger` for the macro.
 After that you have to set the Type to `Script` and paste the following code into the `Script` field:
 
-```shell
+```javascript
 var url = "http://localhost:23119/better-bibtex/cayw??format=biblatex&texstudio=true&minimize=true&command=cite"
 system("curl -sS '" + url + "'")
 ```
@@ -40,7 +40,6 @@ Now you can use the macro by typing "ccc" and the search dialog opens up and you
 ![cayw-texstudio.png](../img/cayw-texstudio.png)
 ![cayw-search.png](../img/cayw-search.png)
 ![cayw-texstudio2.png](../img/cayw-texstudio2.png)
-
 
 ## Are you curious?
 
