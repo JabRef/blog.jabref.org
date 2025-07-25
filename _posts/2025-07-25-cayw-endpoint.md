@@ -35,7 +35,7 @@ system("curl -sS '" + url + "'")
 
 After that, you can save the macro and close the dialog by clicking `Ok`.
 
-Now you can use the macro by typing "aaa" and the search dialog opens up and you can then search for entries and select them.
+Now you can use the macro by typing "ccc" and the search dialog opens up and you can then search for entries and select them.
 
 ![cayw-texstudio.png](../img/cayw-texstudio.png)
 ![cayw-search.png](../img/cayw-search.png)
