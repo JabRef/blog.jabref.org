@@ -26,7 +26,7 @@ In this example, we will use [TeXstudio](https://www.texstudio.org/).
 Open TeXstudio and go to `Macros` → `Edit Macros`, there you have to set a `Name` and a `Trigger` for the macro.
 After that you have to set the Type to `Script` and paste the following code into the `Script` field:
 
-```shell
+```javascript
 var url = "http://localhost:23119/better-bibtex/cayw??format=biblatex&texstudio=true&minimize=true&command=cite"
 system("curl -sS '" + url + "'")
 ```
