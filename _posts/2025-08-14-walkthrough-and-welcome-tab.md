@@ -1,7 +1,7 @@
 ---
 title: Introducing JabRef's New Walkthrough and Welcome Tab
 tags: [gsoc, walkthrough, welcome-tab]
-author: Yubo-Cao
+author: yubo
 ---
 
 Hello! I'm [Yubo Cao](https://www.yubo-cao.com/), a [Google Summer of Code (GSoC) student at JabRef](https://summerofcode.withgoogle.com/myprojects/details/ae6W329p) this year. Today, I'm excited to share with you the new walkthrough and welcome tab features in JabRef.
