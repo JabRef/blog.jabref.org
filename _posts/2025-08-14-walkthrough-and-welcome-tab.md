@@ -8,13 +8,13 @@ Hello! I'm [Yubo Cao](https://www.yubo-cao.com/), a [Google Summer of Code (GSoC
 
 ## Background
 
-JabRef is a free, open-source reference manager that has been evolving since 2003. Over the years, our community has continuously added new features to help users manage their references more efficiently. However, some of these features can be challenging for new users to discover. That's where the walkthrough and welcome tab come in—to help new users get started with JabRef without needing to pore over the entire documentation.
+JabRef is a free, open-source reference manager that has been evolving since 2003. Over the years, our community has continuously added new features to help users manage their references more efficiently. However, some of these features can be challenging for new users to discover. That's where the walkthrough and welcome tab come in—to help new users get started with JabRef without needing to read through the entire documentation.
 
 ## What's New?
 
 With these new features, JabRef users can now:
 
-**Access Walkthroughs**: We've added walkthroughs to help new users get started with JabRef. These walkthroughs highlight the controls you need to interact with in a step-by-step manner, reducing the need to visit our [documentation](https://docs.jabref.org/) to get started with any feature you choose.
+**Access Walkthroughs**: We've added walkthroughs to help new users get started with JabRef. These walkthroughs highlight the controls you need to interact with in a step-by-step manner, reducing the need to visit our [documentation](https://docs.jabref.org/) to get started with selected features.
 
 ![Walkthrough Example](../img/walkthrough-example.png)
 
