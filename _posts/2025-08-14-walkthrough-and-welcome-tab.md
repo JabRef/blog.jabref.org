@@ -25,7 +25,7 @@ With these new features, JabRef users can now:
 
 ![Welcome Tab](../img/welcome-tab.png)
 
-Additionally, the welcome tab now features a responsive layout that ensures proper display when you organize the JabRef side-by-side with other applications.
+Additionally, the welcome tab now features a responsive layout that ensures proper display when you organize JabRef side-by-side with other applications.
 
 ![Welcome Tab Responsive Layout](../img/welcome-tab-responsive-layout.png)
 
