@@ -20,7 +20,7 @@ With these new features, JabRef users can now:
 
 **Utilize the Enhanced Welcome Tab**: The new welcome tab is more feature-rich compared to the previous version.
 
-- Quick settings in the welcome tab allow you to configure the most common settings with a single click.
+- Quick settings in the welcome tab allow you to configure the most commonly-used settings with a single click.
 - Walkthroughs can be directly opened from the welcome tab, making it easier for new users to get started with JabRef.
 
 ![Welcome Tab](../img/welcome-tab.png)
