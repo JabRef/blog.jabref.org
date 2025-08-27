@@ -53,8 +53,6 @@ If you're eager to try out these features, simply download the [latest developme
 
 ## Summary
 
-This walkthrough and welcome tab is a direct result of working on valuable user feedback, addressing long-standing feature requests ([#12272](https://github.com/JabRef/jabref/issues/12272), [#12664](https://github.com/JabRef/jabref/issues/12664), and [#9461](https://github.com/JabRef/jabref/issues/9461) on JabRef's GitHub page).
-
 If you are interested in the technical details of how this project was undertaken, do check out the [wiki](https://github.com/JabRef/jabref/wiki/GSoC-2025-%E2%80%90-Walkthrough-and-Welcome-Tab).
 
 I hope this new feature helps you get started with JabRef. As always, [feedback and suggestions for further improvements](https://discourse.jabref.org/c/feedback/3) are welcome.
