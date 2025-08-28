@@ -14,13 +14,13 @@ JabRef is a free, open-source reference manager that has been evolving since 200
 
 With these new features, JabRef users can now:
 
-**Access Walkthroughs**: We've added walkthroughs to help new users get started with JabRef. These walkthroughs highlight the controls you need to interact with in a step-by-step manner, reducing the need to visit our [documentation](https://docs.jabref.org/) to get started with selected features. Currently, there are five walkthroughs on:
+**Access Walkthroughs**: We've added walkthroughs to help new users get started with JabRef. These walkthroughs highlight the controls you need to interact with in a step-by-step manner, reducing the need to visit our [documentation](https://docs.jabref.org/) to get started with selected features. Currently, there are five walkthroughs, which are on:
 
-1. Set main file directory
-2. Customize entry table
-3. Link PDF/external files to entries (e.g. through the built-in full-text download, URL download, and directly by dragging-and-dropping the file)
-4. Group entries in library
-5. Search through the library using basic full-text search and advanced Lucene syntax
+1. Setting the main file directory
+2. Customizing the entry table
+3. Linking PDF/external files to entries (e.g. through the built-in full-text download, URL download, and directly by dragging-and-dropping the file)
+4. Grouping entries in a library
+5. Searching through the library using basic full-text search and advanced Lucene syntax
 
 ![Walkthrough Example](../img/walkthrough-example.png)
 
