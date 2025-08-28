@@ -8,7 +8,7 @@ Hello! I'm [Yubo Cao](https://www.yubo-cao.com/), a [Google Summer of Code (GSoC
 
 ## Background
 
-JabRef is a free, open-source reference manager that has been evolving since 2003. Over the years, our community has continuously added new features to help users manage their references more efficiently. However, some of these features can be challenging for new users to discover, and the default setting of certian features cannot be determined without prior knowledge about the user's intended usecase of JabRef. To address such challenge ([#12272](https://github.com/JabRef/jabref/issues/12272), [#12664](https://github.com/JabRef/jabref/issues/12664), and [#9461](https://github.com/JabRef/jabref/issues/9491)), walkthroughs and a welcome tab is created to help new users get started with JabRef without needing to read through the entire documentation.
+JabRef is a free, open-source reference manager that has been evolving since 2003. Over the years, our community has continuously added new features to help users manage their references more efficiently. However, some of these features can be challenging for new users to discover, and the default setting of certian features cannot be determined without prior knowledge about the user's intended usecase of JabRef. To address such challenges (e.g., [#12272](https://github.com/JabRef/jabref/issues/12272), [#12664](https://github.com/JabRef/jabref/issues/12664), and [#9491](https://github.com/JabRef/jabref/issues/9491)), walkthroughs and a refined welcome tab have been introduced to help new users get started with JabRef without needing to read through the entire documentation.
 
 ## What's New?
 
@@ -16,9 +16,9 @@ With these new features, JabRef users can now:
 
 **Access Walkthroughs**: We've added walkthroughs to help new users get started with JabRef. These walkthroughs highlight the controls you need to interact with in a step-by-step manner, reducing the need to visit our [documentation](https://docs.jabref.org/) to get started with selected features. Currently, there are five walkthroughs on:
 
-1. Configure main file directory
-2. Customize the entry table
-3. Link PDF/external files to entries through the built-in full-text download, URL download, and directly drag-and-drop file
+1. Set main file directory
+2. Customize entry table
+3. Link PDF/external files to entries (e.g. through the built-in full-text download, URL download, and directly by dragging-and-dropping the file)
 4. Group entries in library
 5. Search through the library using basic full-text search and advanced Lucene syntax
 
@@ -37,7 +37,7 @@ With these new features, JabRef users can now:
     ![Quick settings dialog on configuring citation key](../img/quicksettings-citation-key.png)
   - Configure push to application:
     ![Quick settings dialog on configuring push to application](../img/quicksettings-push-to-application.png)
-  - Configure whether JabRef should check for update on start, web search, Mr. DLib, Grobid, and other online services:
+  - Configure web search services (such as JabRef checking for updates, web search, Mr. DLib, Grobid and more:
     ![Quick settings dialog on configuring online services](../img/quick-settings-mr-dlib.png)
 
 
