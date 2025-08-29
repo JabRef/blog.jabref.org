@@ -28,16 +28,22 @@ With these new features, JabRef users can now:
 
 - Quick settings in the welcome tab allow you to configure the most commonly-used settings with a single click. Those features are:
   - Set the [main file directory](https://docs.jabref.org/finding-sorting-and-cleaning-entries/filelinks):
+
     ![Quick settings dialog on configuring main file directory](../img/quicksettings-main-file-directory.png)
   - Change JabRef's visual theme:
+
     ![Quick settings dialog on configuring theme](../img/quicksettings-theme.png)
   - Optimize JabRef for large libraries:
+
     ![Quick settings dialog on configuring large libraries](../img/quicksettings-large-libraries.png)
   - Toggle whether citation key should be shown in the entry table:
+
     ![Quick settings dialog on configuring citation key](../img/quicksettings-citation-key.png)
   - Configure push to application:
+
     ![Quick settings dialog on configuring push to application](../img/quicksettings-push-to-application.png)
-  - Configure web search services (such as JabRef checking for updates, web search, Mr. DLib, Grobid and more:
+  - Configure web search services (such as JabRef checking for updates, web search, Mr. DLib, Grobid and more):
+
     ![Quick settings dialog on configuring online services](../img/quick-settings-mr-dlib.png)
 
 
