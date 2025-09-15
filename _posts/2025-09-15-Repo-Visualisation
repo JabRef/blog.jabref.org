@@ -1,25 +1,37 @@
 ---
 title:  Repository Visualisation
-tags: [JabCon]
 ---
 
-From Friday, September 12 to Monday, September 15, 2025 the annual [JabCon](https://jabcon.jabref.org/) took place in Zwiesel, Germany, where the majority of the JabRef maintainers and some members of our non-profit organization JabRef e.V. met in person and worked together to improve JabRef and discuss the roadmap for future releases 🐱💻☕.
-This year, we provide a way how to follow changes to JabRef's code base visually, using [Gource](https://github.com/acaudwell/Gource).
+Hello dear JabRef community,
+
+have you ever wondered, what it takes to come up with a software like JabRef?
+Have you ever wondered, if the community is fairly active or not?
+Have you ever wondered, how JabRef has changed over the years in the code-base?
+
+To address these questions, this year, we provide a way how to follow changes to JabRef's code base visually, using [Gource](https://github.com/acaudwell/Gource).
+It reveals how much work actually has been put into making JabRef what it is today by lots of great people!
+
+Let's get started with it.
 
 ### How to use Gource to visualize JabRef's code-base:
 1. Download and install [Git](https://git-scm.com/downloads)
 2. Download and install/store Gource from https://gource.io/ into a folder of your choice
-3. Create a folder for where you want to store JabRef's source code somewhere in your filesystem and enter this folder. As an example, on Windows 10, this could be `C:\EXAMPLE\JabRef`
+3. Create a folder for where you want to store JabRef's source code and open this folder in your file explorer. As an example, on Windows 10, the location could be `C:\EXAMPLE\JabRef`
 4. Open the [CLI](https://en.wikipedia.org/wiki/Command-line_interface) of your operating system
 5. Clone JabRef's code-base into this folder by using the following command in the CLI: `git clone https://github.com/JabRef/jabref.git`
-6. Enter the folder where Gource is stored and open the CLI in this folder
+6. Enter the folder containing the Gource app and open the CLI
 7. Use the following command: `gource C:\EXAMPLE\JABREF -s 0.1`. `-s` sets the speed of the simulation. A value of 0.1 equals 0.1 seconds per day.
 
 The result will be a video like animation that shows who added, changed and removed files at a certain point in time to the repository.
-Down below is a screenshot of how JabRef looks today!
+
+Below is a screenshot of how JabRef looked like in September 15th 2025!
 ![Screenshot showing a visualized state of JabRef's code-base](/img/Gource-2025-09-15-Visualisation.jpg)
 
-We are excited for next year's JabCon!
+A faster alternative is watching the linked videos of JabRef's journey: 
+
+   - JabRef's YouTube channels has gource: https://www.youtube.com/@jabrefe.v.6119
+   - One finds regularly generated gource videos at https://files.jabref.org/gource/
+
 
 ## Special Thanks
 
