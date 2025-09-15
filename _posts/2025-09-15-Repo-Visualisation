@@ -1,0 +1,26 @@
+---
+title:  Repository Visualisation
+tags: [JabCon]
+---
+
+From Friday, September 12 to Monday, September 15, 2025 the annual [JabCon](https://jabcon.jabref.org/) took place in Zwiesel, Germany, where the majority of the JabRef maintainers and some members of our non-profit organization JabRef e.V. met in person and worked together to improve JabRef and discuss the roadmap for future releases 🐱💻☕.
+This year, we provide a way how to follow changes to JabRef's code base visually, using [Gource](https://github.com/acaudwell/Gource).
+
+### How to use Gource to visualize JabRef's code-base:
+1. Download and install [Git](https://git-scm.com/downloads)
+2. Download and install/store Gource from https://gource.io/ into a folder of your choice
+3. Create a folder for where you want to store JabRef's source code somewhere in your filesystem and enter this folder. As an example, on Windows 10, this could be `C:\EXAMPLE\JabRef`
+4. Open the [CLI](https://en.wikipedia.org/wiki/Command-line_interface) of your operating system
+5. Clone JabRef's code-base into this folder by using the following command in the CLI: `git clone https://github.com/JabRef/jabref.git`
+6. Enter the folder where Gource is stored and open the CLI in this folder
+7. Use the following command: `gource C:\EXAMPLE\JABREF -s 0.1`. `-s` sets the speed of the simulation. A value of 0.1 equals 0.1 seconds per day.
+
+The result will be a video like animation and here is a screenshot of how JabRef looks today!
+
+We are excited for next year's JabCon!
+
+## Special Thanks
+
+We want to thank all the users who are constantly testing the latest snapshots and providing feedback!
+Furthermore, we would like to thank our [donators](https://donations.jabref.org) and JabRef e.V. members who made it possible for many JabRef developers to attend the conference and to support our work.
+In case you like to donate money on a regular basis, we would prefer via our bank account (tax-deductible and no fees) or via GitHub Sponsors as the fees are lower than PayPal.
