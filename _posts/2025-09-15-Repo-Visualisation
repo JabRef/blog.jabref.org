@@ -15,7 +15,9 @@ This year, we provide a way how to follow changes to JabRef's code base visually
 6. Enter the folder where Gource is stored and open the CLI in this folder
 7. Use the following command: `gource C:\EXAMPLE\JABREF -s 0.1`. `-s` sets the speed of the simulation. A value of 0.1 equals 0.1 seconds per day.
 
-The result will be a video like animation and here is a screenshot of how JabRef looks today!
+The result will be a video like animation that shows who added, changed and removed files at a certain point in time to the repository.
+Down below is a screenshot of how JabRef looks today!
+![Screenshot showing a visualized state of JabRef's code-base](/img/Gource-2025-09-15-Visualisation.jpg)
 
 We are excited for next year's JabCon!
 
