@@ -6,41 +6,45 @@
 #   url: {homepage_of_author}
 # ------------------------------------
 
-houssem:
-  name: Houssem
-  url: https://github.com/HoussemNasri
-
-ruslan:
-  name: Ruslan
-  url: https://github.com/InAnYan
-
 david:
   name: David
   url: https://github.com/davidemdot
 
-teertinker:
-  name: Felix Wilke
-  url: https://github.com/teertinker
+houssem:
+  name: Houssem
+  url: https://github.com/HoussemNasri
 
-subhramit:
-  name: Subhramit Basu
-  url: https://github.com/subhramit
+koppor:
+  name: koppor
+  url: https://github.com/koppor
 
-priyanshu:
-  name: Priyanshu Gupta
-  url: https://github.com/priyanshu16095
+mentee:
+ name: JabRef GSoC Mentee
 
 palukku:
   name: Philip
   url: https://github.com/palukku
 
-yubo:
-  name: Yubo Cao
-  url: https://github.com/yubo-cao
+priyanshu:
+  name: Priyanshu Gupta
+  url: https://github.com/priyanshu16095
 
-mentee:
- name: JabRef GSoC Mentee
+ruslan:
+  name: Ruslan
+  url: https://github.com/InAnYan
+
+subhramit:
+  name: Subhramit Basu
+  url: https://github.com/subhramit
+
+teertinker:
+  name: Felix Wilke
+  url: https://github.com/teertinker
 
 wanling:
   name: Wanling
   url: https://github.com/wanling0000
+
+yubo:
+  name: Yubo Cao
+  url: https://github.com/yubo-cao
