@@ -11,7 +11,7 @@ Below is a short walkthrough showing how to connect your GitHub-hosted BibTeX fi
 
 ## 1. Push your `.bib` file to GitHub
 
-JabRef’s Git integration (see [the announcement post](2025-11-11-introducing-git-integration-in-jabref.md)) lets you commit and push your bibliography to any Git provider, including GitHub. Once the file is in your repository, navigate to it in the GitHub web UI.
+JabRef’s Git integration (see [the announcement post](../../../../2025/11/11/introducing-git-integration-in-jabref/)) lets you commit and push your bibliography to any Git provider, including GitHub. Once the file is in your repository, navigate to it in the GitHub web UI.
 
 Click **Raw**.
 
