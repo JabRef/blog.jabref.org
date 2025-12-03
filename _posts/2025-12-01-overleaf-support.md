@@ -17,11 +17,11 @@ Click **Raw**.
 
 ![raw file URL button](../img/overleaf-url-sync-step-1.png)
 
-Then, the browser loads the raw file - and presents you the URL:
+Then, the browser loads the raw file - and shows the URL:
 
 ![raw file URL](../img/overleaf-url-sync-step-2.png)
 
-Copy the URL shown in the browser’s address bar. Overleaf will pull your BibTeX data from exactly this URL.
+Copy the URL shown in the browser’s address bar. Overleaf will pull your `.bib` file from exactly this URL.
 
 ## 2. Add the external `.bib` file in Overleaf
 
