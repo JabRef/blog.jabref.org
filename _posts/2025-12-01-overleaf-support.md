@@ -57,5 +57,5 @@ That’s it—your Overleaf project now always pulls the latest bibliography fro
 
 Thanks to our friends at **[CiteDrive](https://www.citedrive.com/)** for sharing this neat trick.
 
-> This is available since [v6.0-alpha.3](https://github.com/JabRef/jabref/releases/tag/v6.0-alpha.3)
+> This feature is available in JabRef since [v6.0-alpha.3](https://github.com/JabRef/jabref/releases/tag/v6.0-alpha.3)
 {: .prompt-tip }
