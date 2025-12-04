@@ -49,9 +49,9 @@ Overleaf now links this file instead of storing a local copy.
 
 Whenever you update your `.bib` file in JabRef and push to GitHub, Overleaf can fetch the new version.
 
-Open the file in Overleaf and click **Refresh**:
-
-That’s it—your Overleaf project now always pulls the latest bibliography from your GitHub repository.
+Open the file in Overleaf and click **Refresh**.
+Now, Overleaf downloads the most recent copy of the `.bib` file and makes it availble in your project.
+You can use the "Refresh" button each time you think, the `.bib` file might be outdated.
 
 ## Acknowledgment
 
