@@ -2,8 +2,9 @@ port: 4000
 host: localhost
 safe: false
 
-#plugins:
+# plugins:
 #  - jekyll-feed
+#  - jekyll-tabs
 
 ### site serving configuration ###
 #permalink: pretty
