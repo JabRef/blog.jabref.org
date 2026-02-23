@@ -1,0 +1,42 @@
+---
+title:  Repository Visualisation
+---
+
+Hello dear JabRef community,
+
+have you ever wondered, what it takes to come up with a software like JabRef?
+Have you ever wondered, if the community is fairly active or not?
+Have you ever wondered, how JabRef has changed over the years in the code-base?
+
+To address these questions, this year, we provide a way how to follow changes to JabRef's code base visually, using [Gource](https://github.com/acaudwell/Gource).
+It reveals how much work actually has been put into making JabRef what it is today by lots of great people!
+
+Let's get started with it.
+
+### How to use Gource to visualize JabRef's code-base:
+1. Download and install [Git](https://git-scm.com/downloads)
+2. Download and install/store Gource from https://gource.io/ into a folder of your choice
+3. Create a folder for where you want to store JabRef's source code and open this folder in your file explorer. As an example, on Windows 10, the location could be `C:\EXAMPLE\JabRef`
+4. Open the [CLI](https://en.wikipedia.org/wiki/Command-line_interface) of your operating system
+5. Clone JabRef's code-base into this folder by using the following command in the CLI: `git clone https://github.com/JabRef/jabref.git`
+6. Enter the folder containing the Gource app and open the CLI
+7. Use the following command: `gource C:\EXAMPLE\JABREF -s 0.1`. `-s` sets the speed of the simulation. A value of 0.1 equals 0.1 seconds per day.
+
+The result will be a video like animation that shows who added, changed and removed files at a certain point in time to the repository.
+
+Below is a screenshot of how JabRef looked like in September 15th 2025!
+![Screenshot showing a visualized state of JabRef's code-base](/img/Gource-2025-09-15-Visualisation.jpg)
+
+A faster alternative is watching the linked videos of JabRef's journey: 
+
+   - JabRef's YouTube channels has gource: https://www.youtube.com/@jabrefe.v.6119
+   - One finds regularly generated gource videos at https://files.jabref.org/gource/
+
+Thank you all for your support!
+
+
+## Special Thanks
+
+We want to thank all the users who are constantly testing the latest snapshots and providing feedback!
+Furthermore, we would like to thank our [donators](https://donations.jabref.org) and JabRef e.V. members who made it possible for many JabRef developers to attend the conference and to support our work.
+In case you like to donate money on a regular basis, we would prefer via our bank account (tax-deductible and no fees) or via GitHub Sponsors as the fees are lower than PayPal.
