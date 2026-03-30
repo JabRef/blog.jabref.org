@@ -4,7 +4,7 @@ tags: [jabref, emacs, lsp, macos, tutorial]
 author: Ayush Kumar Singh
 ---
 
-Hello! I'm Ayush, a AI & Data Science Engineering student at Guru Gobind Singh Indraprastha University, Delhi. I came across this task on GitHub while looking for open source constributions - the task was to write a blog post about setting up Emacs with Jabref's LSP server. Honestly I had never used Emacs before this. The setup took a whole day and had a lot of frustrating moments - wrong commands, LSP stuck on "starting", config errors. But when the autocomplete finally popped up with 32 completions from JabRef's database, it felt really good. Confidence boost for real.
+Hello! I'm Ayush, a AI & Data Science Engineering student at Guru Gobind Singh Indraprastha University, Delhi. I came across this task on GitHub while looking for open source constributions - the task was to write a blog post about setting up Emacs with Jabref's LSP server. The setup took a whole day and had a lot of frustrating moments - wrong commands, LSP stuck on "starting", config errors. But when the autocomplete finally popped up with 32 completions from JabRef's database, it felt really good. Confidence boost for real.
 
 Anyway, here's everything that worked, so you don't have to go through the same pain.
 
@@ -21,6 +21,7 @@ There are two ways to get the LSP server running - using `jbang` (works with the
 ## What you need
 
 - macOS (tested on Apple M2)
+- Homebrew (package manager for macOS)
 - Emacs 29 or later
 - JabRef 5.x or later
 - Basic comfort with Terminal
@@ -63,6 +64,8 @@ Verify both are installed:
 ```bash
 brew install jbangdev/tap/jbang
 ```
+
+![Jbang installing via Homebrew](../img/04-Jbang-install.png)
 
 Then trust the JabRef source:
 
