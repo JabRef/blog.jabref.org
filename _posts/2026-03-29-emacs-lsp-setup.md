@@ -4,9 +4,9 @@ tags: [jabref, emacs, lsp, macos, tutorial]
 author: Ayush Kumar Singh
 ---
 
-Hello! I'm Ayush, a AI & Data Science Engineering student at Guru Gobind Singh Indraprastha University, Delhi. I came across this task on GitHub while looking for open source constributions - the task was to write a blog post about setting up Emacs with Jabref's LSP server. The setup took a whole day and had a lot of frustrating moments - wrong commands, LSP stuck on "starting", config errors. But when the autocomplete finally popped up with 32 completions from JabRef's database, it felt really good. Confidence boost for real.
+Hello! I'm Ayush, a student pursuing B.Tech in AI & Data Science Engineering at Guru Gobind Singh Indraprastha University, Delhi, India. I came across this task on GitHub while contributing to open source — the goal was to document the process of setting up Emacs with JabRef's LSP server. The setup took a full day of trial and error, but once everything clicked, it worked really well.
 
-Anyway, here's everything that worked, so you don't have to go through the same pain.
+This guide covers everything that worked, so you don't have to go through the same process.
 
 ---
 
@@ -133,10 +133,13 @@ Now type a BibTex entry and press `Ctrl + Alt + i` to trigger autocomplete:
 
 ```bibtex
 @article{mykey,
-  author = {
+  author = {Name Here},
+  title = {Title Here},
+  year = {2024}
+}
 ```
 
-Place your cursor inside the `author` field and press `Ctrl + Alt + i`.
+Place your cursor inside the `author` field, delete `Name Here`, and press `Ctrl + Alt + i` to trigger autocomplete.
 
 ![Autocomplete showing 32 completions from JabRef](../img/10-autocomplete-working.png)
 
