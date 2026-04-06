@@ -19,7 +19,7 @@ koppor:
   url: https://github.com/koppor
 
 mentee:
- name: JabRef GSoC Mentee
+  name: JabRef GSoC Mentee
 
 palukku:
   name: Philip
@@ -48,3 +48,7 @@ wanling:
 yubo:
   name: Yubo Cao
   url: https://github.com/yubo-cao
+
+Techvian:
+  name: Ayush Kumar Singh
+  url: https://github.com/Techvian
