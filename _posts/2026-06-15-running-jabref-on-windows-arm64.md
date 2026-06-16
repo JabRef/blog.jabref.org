@@ -101,8 +101,6 @@ The full set of changes is available on this branch on my fork: [`faneeshh/jabre
 
 You can either cherry-pick those commits onto your local working branch, or apply the same null-handling pattern manually to the files listed above.
 
-You can either cherry-pick those commits onto your local working branch, or apply the same null-handling pattern manually to the files listed above.
-
 **ThemeManager stub.** JabRef calls `Scene.getPreferences()` (a JavaFX 27 API used for syncing with the operating system's light/dark theme). Due to how JavaFX publishes its artifacts, this method is not visible on the compile classpath in this setup, even though it exists at runtime.
 
 Comment out the three calls in `jabgui/src/main/java/org/jabref/gui/theme/ThemeManager.java` (around line 170):
