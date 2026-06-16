@@ -8,6 +8,8 @@ Windows on ARM is becoming more common under the influence of Surface laptops, C
 
 This post walks through how to run JabRef on a Windows ARM64 machine. Note that this is an **experimental setup**, not an officially supported configuration. The preview panel in particular will not work, because the WebKit component of JavaFX is not yet available for Windows ARM. Everything else such as the main interface, entry editor, search, groups, import/export runs fine.
 
+A simpler alternative is to use Liberica JDK Full, which ships a Windows ARM64 build with JavaFX bundled. This avoids building JavaFX yourself. The WebView limitation described below still applies regardless of which JDK you use, since WebKit for Windows ARM is the underlying gap.
+
 The setup has two parts: build JavaFX from source for your machine, then configure JabRef to use it.
 
 ## Prerequisites
@@ -101,9 +103,7 @@ The full set of changes is available on this branch on my fork: [`faneeshh/jabre
 
 You can either cherry-pick those commits onto your local working branch, or apply the same null-handling pattern manually to the files listed above.
 
-**ThemeManager stub.** JabRef calls `Scene.getPreferences()` (a JavaFX 27 API used for syncing with the operating system's light/dark theme). Due to how JavaFX publishes its artifacts, this method is not visible on the compile classpath in this setup, even though it exists at runtime.
-
-Comment out the three calls in `jabgui/src/main/java/org/jabref/gui/theme/ThemeManager.java` (around line 170):
+**ThemeManager (potential issue)** : Depending on how your local Maven repository resolves the JavaFX classifier jars, you may hit a compile error in `ThemeManager.java` because `Scene.getPreferences()` (a JavaFX 27 API) is not visible on the compile classpath, even though it exists at runtime. This does not happen on every setup, but if it does, you can comment out the three calls in `jabgui/src/main/java/org/jabref/gui/theme/ThemeManager.java` (around line 170) as a temporary workaround:
 
 ```java
 // if (Objects.equals(type, Theme.Type.LIGHT)) {
@@ -139,4 +139,4 @@ When JabRef launches, the main window, entry table, entry editor, search, groups
 
 ## Acknowledgments
 
-Thanks to [Marius Hanl](https://github.com/Maran23) for sharing the JavaFX build configuration and guidance throughout this setup. Progress on official Windows ARM64 support for JavaFX is tracked upstream at [openjdk/jfx](https://github.com/openjdk/jfx) and until that lands, the approach above is the practical way to run JabRef on these machines.
+Thanks to [Marius Hanl](https://github.com/Maran23) for sharing the JavaFX build configuration and guidance throughout this setup. Progress on official Windows ARM64 support for JavaFX is tracked upstream at [JDK-8351905](https://bugs.openjdk.org/browse/JDK-8351905) and until that lands, the approach above is the practical way to run JabRef on these machines.
