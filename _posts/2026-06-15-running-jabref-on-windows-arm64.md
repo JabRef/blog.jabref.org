@@ -8,8 +8,6 @@ Windows on ARM is becoming more common under the influence of Surface laptops, C
 
 This post walks through how to run JabRef on a Windows ARM64 machine. Note that this is an **experimental setup**, not an officially supported configuration. The preview panel in particular will not work, because the WebKit component of JavaFX is not yet available for Windows ARM. Everything else such as the main interface, entry editor, search, groups, import/export runs fine.
 
-A simpler alternative is to use Liberica JDK Full, which ships a Windows ARM64 build with JavaFX bundled. This avoids building JavaFX yourself. The WebView limitation described below still applies regardless of which JDK you use, since WebKit for Windows ARM is the underlying gap.
-
 The setup has two parts: build JavaFX from source for your machine, then configure JabRef to use it.
 
 ## Prerequisites
@@ -23,77 +21,46 @@ Before you begin, install the following :
 
 ## 1. Build JavaFX from source
 
-Clone the OpenJFX repository and add Marius Hanl's fork as a remote. His fork includes a small commit that fixes sources publishing, which is needed for IntelliJ to resolve JavaFX classes correctly.
+Clone the OpenJFX repository:
 
 ```powershell
 git clone https://github.com/openjdk/jfx.git
 cd jfx
-git remote add maran https://github.com/Maran23/jfx.git
-git fetch maran local-dev
 ```
 
-Cherry-pick the sources-publishing commit from his `local-dev` branch:
+Build JavaFX and publish it to your local Maven repository:
 
 ```powershell
-git cherry-pick 9e9d43e8bb
+.\gradlew -PMAVEN_PUBLISH=true sdk publishJavafxPublicationToMavenLocal
 ```
 
-Now build JavaFX and publish it to your local Maven repository:
+This takes around 6–8 minutes on average.
 
-```powershell
-.\gradlew sdk -PCONF=Release -PMAVEN_PUBLISH=true -PMAVEN_VERSION=custom publishToMavenLocal
-```
-
-This takes around 6–8 minutes on average. The `-PMAVEN_VERSION=custom` flag labels the published artifacts as version `custom` - JabRef will reference this name in the next section.
-
-When the build finishes, your local Maven repository (`%USERPROFILE%\.m2\repository\org\openjfx\`) will contain the JavaFX modules under the `custom` version, including the `-win.jar` classifier jars that hold the actual classes for your platform.
+When the build finishes, your local Maven repository (`%USERPROFILE%\.m2\repository\org\openjfx\`) will contain the freshly built JavaFX modules for Windows ARM64.
 
 ## 2. Configure JabRef to use your custom JavaFX
 
-Clone JabRef:
+Clone JabRef (with submodules):
 
 ```powershell
-git clone https://github.com/JabRef/jabref.git
+git clone --recurse-submodules https://github.com/JabRef/jabref.git
 cd jabref
 ```
 
-Four files need small edits to point JabRef at your locally built JavaFX.
+Thanks to [JabRef #16000](https://github.com/JabRef/jabref/pull/16000), no file edits are needed. Two Gradle properties handle everything:
 
-**Set the JavaFX version to `custom`** in `versions/build.gradle.kts`:
-
-```kotlin
-val javafx = "custom"
+```powershell
+.\gradlew -PjavafxVersion=+ -PuseMavenLocal=true :jabgui:run --no-configuration-cache
 ```
 
-**Add `mavenLocal()` as a repository** in `build-logic/src/main/kotlin/org.jabref.gradle.base.repositories.gradle.kts`. Add it as the first entry so Gradle checks your local Maven repository before remote sources:
+* `-PjavafxVersion=+` tells Gradle to use the latest JavaFX version found locally instead of the version pinned in `versions/build.gradle.kts`.
+* `-PuseMavenLocal=true` lets Gradle resolve dependencies from your local Maven repository, where your custom JavaFX was just published.
 
-```kotlin
-repositories {
-    mavenLocal()
-    mavenCentral()
-    // ... existing entries
-}
-```
-
-**Register the Windows ARM64 target** in `build-logic/src/main/kotlin/org.jabref.gradle.base.dependency-rules.gradle.kts`. Find the section listing JavaFX targets and add the ARM64 line:
-
-```kotlin
-addJfxTarget(jfxModule, "win", OperatingSystemFamily.WINDOWS, MachineArchitecture.X86_64)
-addJfxTarget(jfxModule, "win-aarch64", OperatingSystemFamily.WINDOWS, MachineArchitecture.ARM64)
-```
-
-**Configure the toolchain** in `gradle.properties` to point at your installed JDK 25 and disable auto-download (which currently fails on Windows ARM):
-
-```properties
-org.gradle.java.installations.paths=C:\\Program Files\\Amazon Corretto\\jdk25.0.3_9
-org.gradle.java.installations.auto-download=false
-```
-
-Adjust the path if your Corretto installation is elsewhere.
+The first build takes a few minutes but subsequent runs are faster.
 
 ## 3. Apply workarounds for ARM-specific issues
 
-Two small code changes are needed because of current gaps in JavaFX support for Windows ARM.
+Some code changes are needed because of current gaps in JavaFX support for Windows ARM.
 
 **WebView graceful degradation.** JavaFX's WebKit component is not yet built for Windows ARM, so any attempt to create a `WebView` instance throws a `NoClassDefFoundError` at runtime. JabRef uses `WebView` in its preview panel and a few other places, and the resulting crash prevents the application from launching at all.
 
@@ -103,37 +70,9 @@ The full set of changes is available on this branch on my fork: [`faneeshh/jabre
 
 You can either cherry-pick those commits onto your local working branch, or apply the same null-handling pattern manually to the files listed above.
 
-**ThemeManager (potential issue)** : Depending on how your local Maven repository resolves the JavaFX classifier jars, you may hit a compile error in `ThemeManager.java` because `Scene.getPreferences()` (a JavaFX 27 API) is not visible on the compile classpath, even though it exists at runtime. This does not happen on every setup, but if it does, you can comment out the three calls in `jabgui/src/main/java/org/jabref/gui/theme/ThemeManager.java` (around line 170) as a temporary workaround:
-
-```java
-// if (Objects.equals(type, Theme.Type.LIGHT)) {
-//     scene.getPreferences().setColorScheme(ColorScheme.LIGHT);
-// } else if (Objects.equals(type, Theme.Type.DARK)) {
-//     scene.getPreferences().setColorScheme(ColorScheme.DARK);
-// } else {
-//     scene.getPreferences().setColorScheme(null);
-// }
-```
-
-This disables automatic theme syncing with the OS - JabRef will still respect manually selected themes from its preferences. This is a local workaround only; do not commit it upstream.
-
-## 4. Run JabRef
-
-From the `jabref` directory:
-
-```powershell
-.\gradlew :jabgui:run --no-configuration-cache
-```
-
-The first build takes a few minutes. Subsequent runs are faster.
-
-When JabRef launches, the main window, entry table, entry editor, search, groups, and import/export all function normally. The preview panel will show a placeholder message instead of the usual rendered preview, because the WebKit component is unavailable on this platform.
-
 ## Current limitations on Windows ARM64
 
 - **Preview panel** is not functional. This is the most visible limitation - features that depend on `WebView` (the entry preview, AI summary view, table tooltips) show placeholders or are skipped. This will be resolved once JavaFX provides a WebKit build for Windows ARM64.
-
-- **Automatic OS theme syncing** is disabled by the local stub above.
 
 - **No official JavaFX ARM64 build** means readers need to rebuild JavaFX themselves whenever they want to update to a newer version.
 
