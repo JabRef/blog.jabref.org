@@ -50,11 +50,10 @@ cd jabref
 Thanks to [JabRef #16000](https://github.com/JabRef/jabref/pull/16000), no file edits are needed. Two Gradle properties handle everything:
 
 ```powershell
-.\gradlew -PjavafxVersion=+ -PuseMavenLocal=true :jabgui:run --no-configuration-cache
+.\gradlew -PjavafxVersion=+ :jabgui:run --no-configuration-cache
 ```
 
-* `-PjavafxVersion=+` tells Gradle to use the latest JavaFX version found locally instead of the version pinned in `versions/build.gradle.kts`.
-* `-PuseMavenLocal=true` lets Gradle resolve dependencies from your local Maven repository, where your custom JavaFX was just published.
+`-PjavafxVersion=+` tells Gradle to use the latest JavaFX version found locally instead of the version pinned in `versions/build.gradle.kts`.
 
 The first build takes a few minutes but subsequent runs are faster.
 
