@@ -4,7 +4,7 @@ tags: ["slr", "research", "systematic-literature-review", "catalogs"]
 authors: ["faneesh", "loay"]
 ---
 
-Hi, we're Loay and Faneesh. This summer we worked on improving Systematic Literature Review (SLR) support in JabRef. Rather than walking through a changelog, we thought it'd be easier to show you how it works through a concrete example.
+Hi, we're Loay and Faneesh. This summer we worked on improving **Systematic Literature Review (SLR)** support in JabRef. Rather than walking through a changelog, we thought it'd be easier to show you how it works through a concrete example.
 
 Say you're running a review on mobile health apps for diabetes self-management, a common topic in health informatics SLRs. You'd start from **Tools → Start new systematic literature review**, where you write your research questions, a general search query, and pick which catalogs to search: IEEE, PubMed/Medline, ACM, whichever fits your topic.
 
@@ -40,6 +40,8 @@ Once your study's set up, there's also a one-click "Share on SearchRxiv" button 
 
 ## Try it out
 
-If you do serious review work, these changes should help: native queries for when the general syntax doesn't cut it, and a lock file that records exactly what ran. If you want to dig into how the routing and lock file work under the hood, we wrote up the details in a [developer deep-dive](https://github.com/JabRef/jabref/blob/main/docs/code-howtos/slr.md).
+If you do serious review work, these changes should help: native queries for when the general syntax doesn't cut it, and a lock file that records exactly what ran. Grab the [latest development build](https://builds.jabref.org/main/) to try it out, and if you want to dig into how the routing and lock file work under the hood, we wrote up the details in a [developer deep-dive](https://github.com/JabRef/jabref/blob/main/docs/code-howtos/slr.md).
 
-Thanks to koppor, subhramit, calixtus, and Siedlerchr for reviewing this across several rounds, and to Dominik Voigt and the rest of the SLR tooling research community, whose work shaped what this feature looks like.
+Thanks to [koppor](https://github.com/koppor), [subhramit](https://github.com/subhramit), [calixtus](https://github.com/calixtus), and [Siedlerchr](https://github.com/Siedlerchr) for reviewing this across several rounds, and to Dominik Voigt and the rest of the SLR tooling research community, whose work shaped what this feature looks like.
+
+Found a bug, or have feedback? Let us know on the [forum](https://discourse.jabref.org/c/feedback/3) or [open an issue](https://github.com/JabRef/jabref/issues).
