@@ -34,7 +34,7 @@ To start using this new feature:
 
 ### Demo
 
-![Performing OCR](../img/performin-ocr.gif)
+![Performing OCR](../img/performing-ocr.gif)
 
 ## Summary
 
