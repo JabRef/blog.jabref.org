@@ -4,7 +4,9 @@ tags: ["slr", "research", "systematic-literature-review", "catalogs"]
 authors: ["faneesh", "loay"]
 ---
 
-Hi, we're Loay and Faneesh. This summer, we added two meaningful pieces of functionality to **Systematic Literature Review (SLR)** support in JabRef: you can now give any catalog its own native search query instead of relying only on JabRef's translated one, and every search you run is now fully reproducible, recorded exactly as it happened. Rather than walking through a changelog, we thought it'd be easier to show you how it works through a concrete example.
+Hi, we're Loay and Faneesh. This summer, we worked on improving **Systematic Literature Review (SLR)** support in JabRef, and we're here to talk about it. 
+To give an overview, one, you can now give any catalog its own native search query instead of relying only on JabRef's translated ones, and two, every search you run is now fully reproducible, recorded exactly as it happened.  
+To see all this in action, lets walk through a concrete example.
 
 Say you're running a review on mobile health apps for diabetes self-management, a common topic in health informatics SLRs. You'd start from **Tools → Start new systematic literature review**, where you write your research questions, a general search query, and pick which catalogs to search: IEEE, PubMed/Medline, ACM, whichever fits your topic.
 
