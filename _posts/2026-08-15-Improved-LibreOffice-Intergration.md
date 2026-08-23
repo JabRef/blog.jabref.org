@@ -16,7 +16,7 @@ My goal is therefore to implement compatibility between JabRef and Zotero, impro
 
 ## What's New?
 
-With this improvement, JabRef users can now:
+With these improvements, JabRef users can now:
 
 - **Read documents' with Zotero citations**: Before, JabRef could not recognize citations inserted by Zotero. It can now read and work with them normally.
 - **Insert citations that Zotero can read**: JabRef can now create Zotero-compatible citations, making it easier to continue working on the same document in Zotero.
