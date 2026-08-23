@@ -12,7 +12,7 @@ JabRef introduced support for CSL styles in its LibreOffice integration back in 
 
 In addition, JabRef had no interoperability with other reference management tools such as Zotero. This made collaboration difficult when people working on the same document used different tools. In comparison, Zotero and Mendeley could read and work with each other’s citations in LibreOffice.
 
-My goal is therefore to implement compatibility between JabRef and Zotero, improve support for CSL citations in footnotes, and make the OpenOffice integration more stable. I am excited to say that this project has made good progress in all these areas.
+The goal of my project therefore was to implement compatibility of JabRef's CSL citations with Zotero, fix their behavior in footnotes, and make the overall LibreOffice/OpenOffice integration more stable. The good news is that the project has made good progress in all these areas!
 
 ## What's New?
 
