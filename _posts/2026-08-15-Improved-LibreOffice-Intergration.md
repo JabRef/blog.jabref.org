@@ -21,7 +21,7 @@ With these improvements, JabRef users can now:
 - **Read documents with Zotero citations**: Before, JabRef could not recognize citations inserted by Zotero. It can now read and work with them to enable collaboration.
 - **Insert citations that Zotero can read**: JabRef can now create Zotero-compatible citations, making it easier to work on the same `.odt` document in Zotero.
 - **Synchronize citation styles with Zotero**: Apart from recognizing/inserting Zotero-style citations, JabRef can now also infer the citation styles used in the document and keep it synchronized.
-- **Insert footnotes safely**: Citation numbering in the footnotes is now kept consistent with citations in the main text.
+- **Insert footnotes safely**: Citation numbering in the footnotes is now kept consistent within themselves, and also with citations in the main text.
 - **Choose more options in settings**: Users now have more options in the LibreOffice panel settings, giving them more fine-grained control over how the citations behave.
 
 ## Getting Started
