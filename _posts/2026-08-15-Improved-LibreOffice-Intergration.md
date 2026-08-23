@@ -10,7 +10,7 @@ Hi, I am Hancong. I am a [Google Summer of Code (GSoC) student at JabRef](https:
 
 JabRef introduced support for CSL styles in its LibreOffice integration back in 2024, allowing users to insert CSL-formatted citations directly into their documents. However, there were many existing issues. One of them was that numeric citations inserted in footnotes behaved unexpectedly with regards to their numeric order.
 
-In addition, JabRef had limited interoperability with other reference management tools such as Zotero. This made collabration more difficult when people working on the same document used different tools. In comparison, Zotero and Mendeley can understand each other’s citation metadata.
+In addition, JabRef had no interoperability with other reference management tools such as Zotero. This made collaboration difficult when people working on the same document used different tools. In comparison, Zotero and Mendeley could read and work with each other’s citations in LibreOffice.
 
 My goal is therefore to implement compatibility between JabRef and Zotero, improve support for CSL citations in footnotes, and make the OpenOffice integration more stable. I am excited to say that this project has made good progress in all these areas.
 
