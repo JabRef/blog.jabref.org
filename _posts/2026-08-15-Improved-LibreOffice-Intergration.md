@@ -29,11 +29,13 @@ With these improvements, JabRef users can now:
 To start using this new feature:
 
 1. Download the [development version of JabRef](https://builds.jabref.org/main/).
-2. Install Zotero and import the same .bib file that JabRef currently uses.
-3. Make sure there are already citations inserted by Zotero in a document
-4. Connect to the same running LibreOffice document instance by either clicking the "Connect" or the "Manual Connect" button in the [Libre/OpenOffice Panel](https://docs.jabref.org/cite/openofficeintegration) of JabRef's side pane.
-5. Enable Zotero-compatible mode in settings, and "infer style" mode if you want to synchronize styles.
-6. Start to cite.
+2. Download Zotero.
+3. Open any library in JabRef, such as example library from the welcome screen.
+4. Import the same .bib file into Zotero.
+5. Open any LibreOffice document, insert some citations using Zotero.
+6. Connect to the same LibreOffice document instance by either clicking the "Connect" or the "Manual Connect" button in the [Libre/OpenOffice Panel](https://docs.jabref.org/cite/openofficeintegration) of JabRef's side pane.
+7. Enable Zotero-compatible mode in settings, and "infer style" mode if you want to synchronize styles.
+8. Start to cite.
 
 ### Demo
 #### Read and insert Zotero-style reference mark
