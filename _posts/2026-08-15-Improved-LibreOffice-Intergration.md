@@ -42,7 +42,7 @@ To start using this new feature:
 ![Selecting a style](../img/style.gif)
 
 #### Synchronize styles
-![ynchronize styles](../img/cite-Zotero.gif)
+![Synchronize styles](../img/cite-Zotero.gif)
 
 #### Footnote citations
 ![Footnote citations](../img/footnote.gif)
