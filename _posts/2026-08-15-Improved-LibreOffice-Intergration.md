@@ -8,7 +8,7 @@ Hi, I am Hancong. I am a [Google Summer of Code (GSoC) student at JabRef](https:
 
 ## Background
 
-JabRef introduced support for CSL styles in its LibreOffice integration back in 2024, allowing users to insert CSL-formatted citations directly into their documents. However, there were many existing issues. One of them was that numeric citations inserted in footnotes behaved unexpectedly with regards to their numeric order.
+JabRef introduced support for CSL styles in its LibreOffice integration [back in 2024](https://blog.jabref.org/2024/08/26/GSoC-CSL/), allowing users to insert CSL-formatted citations directly into their documents. However, there were many existing issues. One of them was that numeric citations inserted in footnotes behaved unexpectedly with regards to their numeric order.
 
 In addition, JabRef had no interoperability with other reference management tools such as Zotero. This made collaboration difficult when people working on the same document used different tools. In comparison, Zotero and Mendeley could read and work with each other’s citations in LibreOffice.
 
