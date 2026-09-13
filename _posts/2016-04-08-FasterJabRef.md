@@ -18,7 +18,7 @@ Well, this time will be over soon: [Simon Harrer](https://github.com/simonharrer
 Preliminary tests have been carried out on a database with 100000 entries (is it big enough for you?).
 They show that **JabRef is now 10 times faster at searching**: it takes only one second to search through 60000 entries!
 
-You can [give it a try](http://builds.jabref.org/master/)
+You can [give it a try](https://builds.jabref.org/master/)
 (*This is a development version: Be carefully, and back up your data first!)*.
 [Your comments are welcomed](https://github.com/JabRef/jabref/pull/1100)!
 

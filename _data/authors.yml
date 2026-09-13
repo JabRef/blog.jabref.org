@@ -1,0 +1,66 @@
+## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
+# -------------------------------------
+# {author_id}:
+#   name: {full name}
+#   twitter: {twitter_of_author}
+#   url: {homepage_of_author}
+# ------------------------------------
+
+david:
+  name: David
+  url: https://github.com/davidemdot
+
+faneesh:
+  name: Faneesh Juneja
+  url: https://github.com/faneeshh
+
+houssem:
+  name: Houssem
+  url: https://github.com/HoussemNasri
+
+koppor:
+  name: koppor
+  url: https://github.com/koppor
+
+loay:
+  name: Loay Tarek
+  url: https://github.com/LoayTarek5
+
+mentee:
+ name: JabRef GSoC Mentee
+
+palukku:
+  name: Philip
+  url: https://github.com/palukku
+
+priyanshu:
+  name: Priyanshu Gupta
+  url: https://github.com/priyanshu16095
+
+ruslan:
+  name: Ruslan
+  url: https://github.com/InAnYan
+
+subhramit:
+  name: Subhramit Basu
+  url: https://github.com/subhramit
+
+teertinker:
+  name: Felix Wilke
+  url: https://github.com/teertinker
+
+wanling:
+  name: Wanling
+  url: https://github.com/wanling0000
+
+yubo:
+  name: Yubo Cao
+  url: https://github.com/yubo-cao
+
+zeyad:
+  name: Zeyad Abdelfattah
+  url: https://github.com/ZiadAbdElFatah
+
+Hancong:
+  name: Hancong Zhang
+  url: https://github.com/pluto-han

@@ -1,7 +1,7 @@
 ---
 title: Revised Hotkey System
 author: "[JabRef StuPro](https://github.com/orgs/JabRef/teams/stupro)"
-categories: [HowTo]
+tags: [howto]
 ---
 
 In the next release of JabRef a revised hotkey system is introduced. The two goals of this revision is to improve maneuverability through the keyboard and streamlining hotkeys. Sometimes, related hotkeys (like the ones covering the side panes) were scattered across the keyboard, so we grouped them together. You might be wondering what has changed, so have a look at them:
@@ -32,4 +32,4 @@ Keys - new | Keys - old | Function
 
 If you would like to try the new system, you can try it out at [https://builds.jabref.org/master/](https://builds.jabref.org/master/).
 
-For questions about the functioning or suggestions for improvements, please use the [discussion forum](http://discourse.jabref.org/). In case you have trouble, report bugs on [GitHub]( https://github.com/JabRef/jabref/issues).
+For questions about the functioning or suggestions for improvements, please use the [discussion forum](https://discourse.jabref.org/). In case you have trouble, report bugs on [GitHub]( https://github.com/JabRef/jabref/issues).

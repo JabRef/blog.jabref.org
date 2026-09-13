@@ -14,7 +14,7 @@ See [GitHub pages](https://pages.github.com/) for more details on the mechanics 
 For local development, follow the [Jekyll installation instructions](https://jekyllrb.com/docs/installation/).
 Installing the latest version of ruby followed by `gem install bundler` should be enough.
 
-Afterwards, run
+Afterward, run
 
 ```terminal
 bundle install
@@ -26,13 +26,17 @@ and go to <http://localhost:4000/> in your browser.
 On Windows, using a dockerized environment is recommended:
 
 ```terminal
-docker run -p 4000:4000 --rm --volume="C:\git-repositories\jabref\blog.jabref.org":/srv/jekyll jekyll/jekyll:4 jekyll serve
+docker run -p 4000:4000 --rm --volume="C:\git-repositories\blog.jabref.org":/site bretfisher/jekyll-serve
 ```
 
 In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and rerun.
 
-Incremental building is also possible:
+## Updating the theme
 
-```terminal
-docker run -p 4000:4000 --rm --volume="C:\git-repositories\jabref\blog.jabref.org":/srv/jekyll jekyll/jekyll:4 jekyll serve --incremental
-```
+1. Update `Gemfile`
+2. Update assets:
+   1. `cd assets/lib`
+   2. `git pull`
+   3. `cd ../..`
+3. git commit and PR creation
+4. In case build fails because of missing assets, roll back the assets to the commit matching the release version of the theme.

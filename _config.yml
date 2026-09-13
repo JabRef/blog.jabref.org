@@ -2,8 +2,9 @@ port: 4000
 host: localhost
 safe: false
 
-#plugins:
+# plugins:
 #  - jekyll-feed
+#  - jekyll-tabs
 
 ### site serving configuration ###
 #permalink: pretty
@@ -19,12 +20,12 @@ theme: jekyll-theme-chirpy
 # and doesn't have a custom domain.
 baseurl: ''
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
+# The language of the webpage › https://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+# Change to your timezone › https://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Europe/Berlin
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
@@ -53,8 +54,8 @@ social:
   email: web@jabref.org             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://www.jabref.org/impressum.html      # change to your twitter homepage
-    - https://github.com/JabRef/jabref       # change to your github homepage
+    - https://verein.jabref.org/
+    - https://github.com/JabRef/jabref       # GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     - https://www.linkedin.com/company/11443406/
@@ -63,13 +64,6 @@ google_site_verification:               # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
-
-google_analytics:
-  id:                 # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path:       # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
 #
@@ -89,7 +83,7 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: img/JabRef-icon-256.png
@@ -98,7 +92,7 @@ avatar: img/JabRef-icon-256.png
 avatar_link: https://www.jabref.org
 
 # boolean type, the global switch for ToC in posts.
-toc: false
+toc: true
 
 comments:
   active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable

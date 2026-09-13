@@ -1,13 +1,14 @@
 ---
 title: "Google Summer of Code 2019: User Interface"
-categories: [GSoC]
+tags: [gsoc]
+author: david
 ---
 
 Hi!
 We keep working on the [LaTeX Integration project for the Google Summer of Code](https://summerofcode.withgoogle.com/projects/#6055042405105664).
 
 Any feedback is more than welcome!
-[Forum](http://discourse.jabref.org/t/project-latex-integration-please-give-us-your-feedback/1660) |
+[Forum](https://discourse.jabref.org/t/project-latex-integration-please-give-us-your-feedback/1660) |
 [GitHub](https://github.com/JabRef/jabref/pull/5011) |
 [Gitter](https://gitter.im/JabRef/jabref)
 
