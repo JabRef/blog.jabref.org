@@ -42,6 +42,34 @@ As a consequence, in some papers the `url` field is shown, in some it is not, ev
 
 ## History
 
+### JabRef 1.0
+
+JabRef 1.0 was released in November 2003.
+
+- Types are in upper case letters: `@PHDTHESIS`
+- Keys in lower case letters: `author`
+- `author` and `title` come first, the other fields follow in no particular order
+- The last field ends with a comma
+- Long field content is wrapped. Each continuation line starts with a tab and a space.
+  Line breaks and empty lines in the content are replaced by spaces.
+- Entries of unknown types (here: `@COLLECTION`) and comments are dropped silently
+
+```bibtex
+@PHDTHESIS{7,
+  author = {Field, Required},
+  title = {Title is required},
+  abstract = {Abstract is optional.
+	 It is a multiline field. Each line started with a tab character.},
+  absolutelycustom = {AbsolutelyCustom is a custom field},
+}
+```
+
+The header consisted of a single line without a `%`:
+
+```latex
+This file was created with JabRef.
+```
+
 ### JabRef 2.0 to JabRef 2.9.2
 
 - Types are in upper case letters: `@ARTICLE`
@@ -303,14 +331,31 @@ See [Groups](#groups) below.
 
 ### JabRef 5.0 to 5.15
 
-- JabRef 5.0 (2020-03-06): Fields are now sorted alphabetically in the subgroups of required and optional fields.
-  Customized entry types (`@Comment{jabref-entrytype: ...}`) are serialized in alphabetical order.
+JabRef 5.0 was released on 2020-03-06.
+The required fields are now sorted alphabetically, too: `author`, `school`, `title`, `year` instead of the order of the BibTeX manual.
+
+```bibtex
+@PhdThesis{1,
+  author    = {a},
+  school    = {s},
+  title     = {t},
+  year      = {2015},
+  abstract  = {a},
+  directory = {d},
+}
+```
+
+Further changes:
+
+- JabRef 5.0: Customized entry types (`@Comment{jabref-entrytype: ...}`) are serialized in alphabetical order.
 - JabRef 5.4 (2021-12-20): If the library is encoded in UTF-8, the `% Encoding: UTF-8` header is not written any more.
 - JabRef 5.7 (2022-08-05): If a file contains a `% Encoding: UTF-8` header, it is kept ([#8964](https://github.com/JabRef/jabref/pull/8964)).
+- JabRef 5.8 (2022-12-18): Line breaks in single-line fields such as `journal` are kept as they are.
+  JabRef 3.0 to 5.7 joined them into one line.
 
 ### JabRef 6.0
 
-The current development version of JabRef 6.0 writes the entry as follows:
+The current development version of JabRef 6.0 writes the entry exactly as JabRef 5.15 does:
 
 ```bibtex
 @PhdThesis{7,
@@ -321,12 +366,6 @@ The current development version of JabRef 6.0 writes the entry as follows:
 	a tab character.},
 }
 ```
-
-Compared to JabRef 4.3.1:
-
-- Required fields are sorted alphabetically: `author`, `school`, `title`, `year`.
-- Line breaks in single-line fields such as `journal` are kept as they are.
-  JabRef 3.0 to 4.3.1 joined them into one line.
 
 When the demo file (written by JabRef 2.9.2) is opened with JabRef 6.0, the library mode is changed, and the file is saved, the diff consists of the removed signature line `% This file was created with JabRef 2.9.2.` and the changed metadata comments at the end of the file only.
 All entries are written back byte by byte as they were read.
@@ -347,6 +386,8 @@ It is a multiline field.
 Second paragraph.}
 }
 ```
+
+JabRef 1.0 replaces all line breaks (including the empty line) by spaces and wraps the result.
 
 JabRef 2.0 to 2.9.2 treat a single line break as a space and keep the empty line.
 Long values are wrapped at approximately 70 characters and each continuation line starts with a tab - even the empty line:
