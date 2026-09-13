@@ -454,33 +454,142 @@ Second paragraph.},
 ## Groups
 
 JabRef stores the groups of a library at the end of the `.bib` file in a `@Comment`.
-The format of this comment changed as well:
+The format of this comment changed as well.
+We use a small chocolate library to illustrate this: three entries, a static group "Chocolate" with two entries, a keyword subgroup "Dark" (all entries with `dark` in `keywords`), and a search group "Swiss" (all entries containing "Bern").
 
-- Up to JabRef 1.5, an old format was used. Support for reading this format was removed in JabRef 3.4. JabRef 3.3 can be used to convert such a file.
-- JabRef 1.6 to 3.3: The groups tree is stored in `@comment{jabref-meta: groupstree: ...}`.
-  The entries belonging to a manually assigned group are listed in the tree by their citation keys: `ExplicitGroup:name\;0\;key1\;key2\;;`.
-  A renamed citation key thus changes the groups tree.
-- JabRef 3.4 (2016-06-02): The manually assigned groups are stored in the `groups` field of the entry instead ([#629](https://github.com/JabRef/jabref/issues/629)).
-  The tree contains the names of the groups only.
-- JabRef 4.0 (2017-10-04): Groups got an icon, a color, a description, an expansion state, and "automatic groups" ([#2634](https://github.com/JabRef/jabref/pull/2634)).
-  `ExplicitGroup` was renamed to `StaticGroup` and the metadata key changed from `groupstree` to `grouping` ([#2704](https://github.com/JabRef/jabref/pull/2704)).
-  The rename of the key was done on purpose: JabRef 3.x crashed when parsing the new group format.
-  With the new key, JabRef 3.x ignores the groups completely - and drops them when saving the file.
-  JabRef 4.0 did not warn users about that ([#3251](https://github.com/JabRef/jabref/issues/3251)).
-- JabRef 5.0 (2020-03-06): The feature to "mark entries" was removed and merged with the groups.
-  For each value of the `__markedentry` field, a group is created.
-- JabRef 6.0: The syntax of search groups changed to the syntax of the new search.
-  When a library with search groups in the old syntax is opened, JabRef asks whether to migrate them.
-  JabRef 6.0-alpha.2 removed these migrations ([#12990](https://github.com/JabRef/jabref/pull/12990)); users with older files need to open them with JabRef 6.0-alpha.1 once.
+```bibtex
+@BOOK{Beckett2008,
+  title = {The Science of Chocolate},
+  author = {Beckett, Stephen T.},
+  publisher = {Royal Society of Chemistry},
+  year = {2008},
+  keywords = {dark}
+}
 
-This is how a static group is written by JabRef 6.0:
+@ARTICLE{Afoakwa2007,
+  title = {Factors influencing rheological and textural qualities in chocolate},
+  author = {Afoakwa, Emmanuel Ohene and Paterson, Alistair and Fowler, Mark},
+  journal = {Trends in Food Science \& Technology},
+  year = {2007},
+  keywords = {milk}
+}
+
+@ARTICLE{Tobler1908,
+  title = {Zur Herstellung von Schokolade in Bern},
+  author = {Tobler, Theodor},
+  journal = {Schweizer Zeitschrift},
+  year = {1908}
+}
+```
+
+### JabRef 1.5 to 3.3
+
+The groups tree is stored in the metadata comment `groupstree`, together with a `groupsversion`.
+Each line is one group: the number is the level in the tree, followed by the type of the group and its parameters separated by `\;`.
+The second parameter is always the "hierarchical context" (`0`: independent, `1`: intersection with the parent group, `2`: union with the parent group).
+A static group (`ExplicitGroup`) lists the citation keys of its entries.
+A `KeywordGroup` stores the field, the search term, and two flags (case sensitive, regular expression).
+A `SearchGroup` stores the search expression and the same two flags.
+
+```bibtex
+@comment{jabref-meta: groupsversion:3;}
+
+@comment{jabref-meta: groupstree:
+0 AllEntriesGroup:;
+1 ExplicitGroup:Chocolate\;0\;Afoakwa2007\;Beckett2008\;;
+2 KeywordGroup:Dark\;0\;keywords\;dark\;0\;0\;;
+1 SearchGroup:Swiss\;0\;Bern\;0\;0\;;
+}
+```
+
+JabRef 1.5 and 1.6 wrote the whole tree on a single line.
+Since JabRef 1.7, each group is on its own line.
+Older versions of JabRef used other formats (`groupsversion` 0 to 2); JabRef 3.4 stopped reading them.
+
+As the citation keys are stored in the tree, renaming a citation key or adding an entry to a group changes the metadata at the end of the file - and thus causes merge conflicts when collaborating.
+
+JabRef 3.3 writes the comments with a capital letter (`@Comment`) and after the `databaseType`.
+
+### JabRef 3.4 to 3.8
+
+JabRef 3.4 (2016-06-02) moved the membership of static groups into the entries ([#629](https://github.com/JabRef/jabref/issues/629)).
+Each entry lists its groups in the field `groups`; the tree only lists the name of the group.
+When a file in the old format is opened, JabRef converts it and marks the library as changed.
+
+```bibtex
+@Book{Beckett2008,
+  title     = {The Science of Chocolate},
+  publisher = {Royal Society of Chemistry},
+  year      = {2008},
+  author    = {Beckett, Stephen T.},
+  groups    = {Chocolate},
+  keywords  = {dark},
+}
+```
+
+```bibtex
+@Comment{jabref-meta: groupstree:
+0 AllEntriesGroup:;
+1 ExplicitGroup:Chocolate\;0\;;
+2 KeywordGroup:Dark\;0\;keywords\;dark\;0\;0\;;
+1 SearchGroup:Swiss\;0\;Bern\;0\;0\;;
+}
+
+@Comment{jabref-meta: groupsversion:3;}
+```
+
+### JabRef 4.0 to 5.15
+
+JabRef 4.0 (2017-10-04) gave groups an icon, a color, a description, an expansion state, and introduced "automatic groups" ([#2634](https://github.com/JabRef/jabref/pull/2634)).
+`ExplicitGroup` was renamed to `StaticGroup`, and the metadata key changed from `groupstree` to `grouping` ([#2704](https://github.com/JabRef/jabref/pull/2704)).
+The rename of the key was done on purpose: JabRef 3.x crashed when parsing the new group format.
+With the new key, JabRef 3.x ignores the groups completely - and drops them when saving the file.
+JabRef 4.0 did not warn users about that ([#3251](https://github.com/JabRef/jabref/issues/3251)).
+
+Each group now ends with four additional parameters: expanded (`1`), color (e.g., `0x8a8a8aff`), icon, and description.
+The obsolete `groupsversion` is still written - split over three lines.
 
 ```bibtex
 @Comment{jabref-meta: grouping:
 0 AllEntriesGroup:;
-1 StaticGroup:Covid subgroup\;0\;1\;0x8a8a8aff\;\;\;;
+1 StaticGroup:Chocolate\;0\;1\;\;\;\;;
+2 KeywordGroup:Dark\;0\;keywords\;dark\;0\;0\;1\;\;\;\;;
+1 SearchGroup:Swiss\;0\;Bern\;0\;0\;1\;\;\;\;;
+}
+
+@Comment{jabref-meta: groupsversion:
+3;
 }
 ```
+
+JabRef 5.0 (2020-03-06) removed the feature to "mark entries" and merged it with the groups:
+For each value of the `__markedentry` field, a group is created.
+
+### JabRef 6.0
+
+The syntax of search groups changed to the syntax of the new search.
+When a library with search groups in the old syntax is opened, JabRef asks whether to migrate them:
+
+![JabRef 6.0 asks to migrate search groups](../img/jabref-6.0-search-groups-migration.png)
+
+After the migration, the file contains the version of the search syntax:
+
+```bibtex
+@Comment{jabref-meta: grouping:
+0 AllEntriesGroup:;
+1 StaticGroup:Chocolate\;0\;1\;\;\;\;;
+2 KeywordGroup:Dark\;0\;keywords\;dark\;0\;0\;1\;\;\;\;;
+1 SearchGroup:Swiss\;0\;Bern\;0\;0\;1\;\;\;\;;
+}
+
+@Comment{jabref-meta: groups-search-syntax-version:6.0-alpha_1}
+```
+
+JabRef 6.0-alpha.2 removed the other library migrations ([#12990](https://github.com/JabRef/jabref/pull/12990)).
+This has a consequence for files written before JabRef 3.4:
+When such a file is opened directly in JabRef 6.0, the citation keys stored in the tree are dropped and no `groups` field is written.
+The static group "Chocolate" is empty afterwards.
+Such files need to be opened and saved with JabRef 3.4 to 5.15 first.
 
 To sum up: JabRef is backwards compatible (a new version reads files of old versions), but not forward compatible (an old version may drop information written by a new version).
 Except for the search groups of JabRef 6.0, JabRef does not warn when it changes the format of a file.
