@@ -42,9 +42,10 @@ As a consequence, in some papers the `url` field is shown, in some it is not, ev
 
 ## History
 
-### JabRef 1.0
+### JabRef 1.0 to 1.6
 
 JabRef 1.0 was released in November 2003.
+Up to JabRef 1.6 (November 2004), the format stayed the same:
 
 - Types are in upper case letters: `@PHDTHESIS`
 - Keys in lower case letters: `author`
@@ -70,7 +71,29 @@ The header consisted of a single line without a `%`:
 This file was created with JabRef.
 ```
 
-### JabRef 2.0 to JabRef 2.9.2
+### JabRef 1.7
+
+JabRef 1.7 was released in March 2005.
+
+- The fields after `author` and `title` are sorted alphabetically.
+- Custom entry types are stored in the file: `@comment{jabref-entrytype: Collection: req[booktitle;editor;publisher;year] opt[abstract;month;number;series;volume]}`.
+  Entries of such types are kept.
+- The header got a second line: `Encoding: UTF-8` (still without `%`).
+
+```bibtex
+@PHDTHESIS{7,
+  author = {Field, Required},
+  title = {Title is required},
+  absolutelycustom = {AbsolutelyCustom is a custom field},
+  abstract = {Abstract is optional.
+	 It is a multiline field. Each line started with a tab character.},
+}
+```
+
+### JabRef 1.8 to JabRef 2.9.2
+
+JabRef 1.8 was released in July 2005.
+It introduced the wrapping of long field content that stayed until JabRef 2.9.2.
 
 - Types are in upper case letters: `@ARTICLE`
 - Keys in lower case letters: `author`
@@ -112,7 +135,7 @@ The header included an advertisement on "JabRef":
 % Encoding: UTF-8
 ```
 
-JabRef 2.0 to 2.2 wrote the two header lines without the leading `%`.
+JabRef 1.8 to 2.2 wrote the two header lines without the leading `%`.
 These versions also ended the last field of an entry with a comma.
 
 ### JabRef 2.10
@@ -387,9 +410,9 @@ Second paragraph.}
 }
 ```
 
-JabRef 1.0 replaces all line breaks (including the empty line) by spaces and wraps the result.
+JabRef 1.0 to 1.7 replace all line breaks (including the empty line) by spaces and wrap the result.
 
-JabRef 2.0 to 2.9.2 treat a single line break as a space and keep the empty line.
+JabRef 1.8 to 2.9.2 treat a single line break as a space and keep the empty line.
 Long values are wrapped at approximately 70 characters and each continuation line starts with a tab - even the empty line:
 
 ```bibtex
