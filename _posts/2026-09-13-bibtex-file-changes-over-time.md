@@ -434,6 +434,8 @@ JabRef 2.10 and 2.11 join a line break followed by a tab (the wrapping of older 
 JabRef 3.0 and later keep such tabs as long as the entry is not modified.
 As soon as the entry is modified, the old indentation becomes part of the field content.
 Thus, the indentation is visible in the entry editor (see the JabRef 3.0 screenshot above).
+Java's text blocks face the same problem: [JEP 378](https://openjdk.org/jeps/378) discusses in depth how to tell "incidental" indentation from intended one and settles on removing the common leading whitespace of all lines.
+This is the heuristic the JabRef team decided not to implement in JabRef 3.0.
 The [Cleanup](https://docs.jabref.org/finding-sorting-and-cleaning-entries/cleanupentries) operation and the "Save actions" of a library offer formatters to remove such whitespace.
 
 This is the output of JabRef 6.0.
@@ -680,3 +682,4 @@ Its design is described in "Bibliography prettyprinting and syntax checking", TU
 - Request for an option to not align the `=`: <https://github.com/JabRef/jabref/issues/8676>
 - Discussion on the casing of field names: <https://github.com/JabRef/jabref/issues/10590>
 - Migration paths between JabRef versions: <https://github.com/JabRef/user-documentation/issues/227>
+- JEP 378 "Text Blocks" on incidental whitespace in multiline strings: <https://openjdk.org/jeps/378>
