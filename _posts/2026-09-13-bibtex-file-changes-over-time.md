@@ -7,8 +7,9 @@ author: koppor
 JabRef changed the way it writes a BibTeX file several times.
 This blog post presents how the `.bib` file looks like for different JabRef versions.
 The semantics of the content was never changed, but the "layout" in the file.
-That lead to huge complaints over the time, especially when a group of researchers used different JabRef versions on the same file.
 
+When one user opened the BibTeX file with one JabRef version - and another user with another version, the file was completely rewritten.
+That lead to huge complaints over the time, especially when a group of researchers used different JabRef versions on the same file.
 The JabRef team decided in 2015 that this side effect is not acceptable and that only the parts of the bibliography touched by JabRef should be rewritten.
 This was implemented in JabRef 3.1, released on 2015-12-24.
 
