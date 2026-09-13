@@ -373,8 +373,11 @@ Further changes:
 - JabRef 5.0: Customized entry types (`@Comment{jabref-entrytype: ...}`) are serialized in alphabetical order.
 - JabRef 5.4 (2021-12-20): If the library is encoded in UTF-8, the `% Encoding: UTF-8` header is not written any more.
 - JabRef 5.7 (2022-08-05): If a file contains a `% Encoding: UTF-8` header, it is kept ([#8964](https://github.com/JabRef/jabref/pull/8964)).
-- JabRef 5.8 (2022-12-18): Line breaks in single-line fields such as `journal` are kept as they are.
-  JabRef 3.0 to 5.7 joined them into one line.
+- JabRef 5.14 (2024-07-08): Line breaks in single-line fields such as `journal` are kept as they are.
+  JabRef 3.0 to 5.13 joined them into one line.
+  This was a side effect of a fix for the entry editor ([#11282](https://github.com/JabRef/jabref/pull/11282)), not a decision.
+
+Apart from that, JabRef 5.0 to 5.15 write entries identically.
 
 ### JabRef 6.0
 
